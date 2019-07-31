@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+</head>
+<body>
+
+<header class="header">
+    <div class="container grid header__container">
+        <div class="header__aside">
+            <a class="header__logo" href="#"><img class=".header__logo-img" src="img/logo.png"></a>
+        </div>
+        <div class="header__panel">
+            <button class="header__burger"></button>
+            <form class="search header__search">
+                <input class="search__input" type="text" placeholder="Быстрый поиск">
+                <button class="search__btn"></button>
+            </form>
+            <div class="location header__location">
+                <button class="location__btn"></button>
+            </div>
+            <div class="create header__create">
+                <button class="create__btn"><i class="create__icon"></i>СОЗДАТь</button>
+            </div>
+            <div class="avatar header__avatar">
+                <img class="avatar__img" src="img/avatar.jpg">
+            </div>
+        </div>
+    </div>
+</header>
+
+<main class="main">
+    <div class="container grid main__container">
+        <aside class="aside">
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a class="nav__link nav__link--active" href="">Все события</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="">Мои события</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="">Сообщения<span class="nav__num">333</span></a>
+                    </li>
+                    <li class="nav__item nav__item--indent">
+                        <a class="nav__link" href="">Статистика</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="">О проекте</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        <section class="content">
+
+            <ul class="categories">
+                <li class="categories__item">
+                    <a class="categories__link" href="#">
+                        <img class="categories__img" src="img/categories-bear.png">
+                        <span class="categories__name">Детям</span>
+                    </a>
+                </li>
+                <li class="categories__item">
+                    <a class="categories__link" href="#">
+                        <img class="categories__img" src="img/categories-music.png">
+                        <span class="categories__name">Музыка</span>
+                    </a>
+                </li>
+                <li class="categories__item">
+                    <a class="categories__link" href="#">
+                        <img class="categories__img" src="img/categories-video.png">
+                        <span class="categories__name">Кино</span>
+                    </a>
+                </li>
+                <li class="categories__item">
+                    <a class="categories__link" href="#">
+                        <img class="categories__img" src="img/categories-dancing.png">
+                        <span class="categories__name">Танцы</span>
+                    </a>
+                </li>
+                <li class="categories__item">
+                    <a class="categories__link" href="#">
+                        <img class="categories__img" src="img/categories-books.png">
+                        <span class="categories__name">Знания</span>
+                    </a>
+                </li>
+                <li class="categories__item">
+                    <a class="categories__link" href="#">
+                        <img class="categories__img" src="img/categories-ball.png">
+                        <span class="categories__name">Шарики</span>
+                    </a>
+                </li>
+                <!-- <button class="categories__btn categories__btn--prev"></button> -->
+                <button class="categories__btn categories__btn--next"></button>
+            </ul>
+            <!-- ./categories -->
+
+            <ul class="tags">
+                <li class="tags__item">
+                    <a class="tags__link" href="#">#принцессы</a>
+                </li>
+                <li class="tags__item">
+                    <a class="tags__link tags__link--active" href="#">#принцессы</a>
+                </li>
+                <li class="tags__item">
+                    <a class="tags__link" href="#">#принцессы</a>
+                </li>
+                <li class="tags__item">
+                    <a class="tags__link" href="#">#принцессы</a>
+                </li>
+                <li class="tags__item">
+                    <a class="tags__link" href="#">#принцессы</a>
+                </li>
+                <li class="tags__item">
+                    <a class="tags__link" href="#">#принцессы</a>
+                </li>
+                <button class="tags__btn tags__btn--prev"></button>
+                <button class="tags__btn tags__btn--next"></button>
+            </ul>
+            <!-- ./tags -->
+
+            <div class="movies">
+                <ul class="movies__list">
+                    <li class="movies__item">
+                        <div class="movies__pic">
+                            <a href="#"><img class="movies__img" src="content/movie1.jpg"></a>
+                        </div>
+                        <h2 class="movies__title"><a href="#">Тайная жизнь домашних животных</a></h2>
+                        <p class="movies__dates">21 декабря - 13 февраля</p>
+                    </li>
+                    <li class="movies__item">
+                        <div class="movies__pic">
+                            <a href="#"><img class="movies__img" src="content/movie2.jpg"></a>
+                        </div>
+                        <h2 class="movies__title"><a href="#">Боль и слава</a></h2>
+                        <p class="movies__dates">21 декабря - 13 февраля</p>
+                    </li>
+                    <li class="movies__item">
+                        <div class="movies__pic">
+                            <a href="#"><img class="movies__img" src="content/movie3.jpg"></a>
+                        </div>
+                        <h2 class="movies__title"><a href="#">Люди Икс: Темный Феникс</a></h2>
+                        <p class="movies__dates">21 декабря - 13 февраля</p>
+                    </li>
+                    <li class="movies__item">
+                        <div class="movies__pic">
+                            <a href="#"><img class="movies__img" src="content/movieX.png"></a>
+                        </div>
+                        <h2 class="movies__title"><a href="#">Тайная жизнь домашних животных</a></h2>
+                        <p class="movies__dates">21 декабря - 13 февраля</p>
+                    </li>
+                    <li class="movies__item">
+                        <div class="movies__pic">
+                            <a href="#"><img class="movies__img" src="content/movieX.png"></a>
+                        </div>
+                        <h2 class="movies__title"><a href="#">Боль и слава</a></h2>
+                        <p class="movies__dates">21 декабря - 13 февраля</p>
+                    </li>
+                    <li class="movies__item">
+                        <div class="movies__pic">
+                            <a href="#"><img class="movies__img" src="content/movieX.png"></a>
+                        </div>
+                        <h2 class="movies__title"><a href="#">Люди Икс: Темный Феникс</a></h2>
+                        <p class="movies__dates">21 декабря - 13 февраля</p>
+                    </li>
+                    <li class="movies__item">
+                        <div class="movies__pic">
+                            <a href="#"><img class="movies__img" src="content/movieX.png"></a>
+                        </div>
+                        <h2 class="movies__title"><a href="#">Тайная жизнь домашних животных</a></h2>
+                        <p class="movies__dates">21 декабря - 13 февраля</p>
+                    </li>
+                    <li class="movies__item">
+                        <div class="movies__pic">
+                            <a href="#"><img class="movies__img" src="content/movieX.png"></a>
+                        </div>
+                        <h2 class="movies__title"><a href="#">Боль и слава</a></h2>
+                        <p class="movies__dates">21 декабря - 13 февраля</p>
+                    </li>
+                    <li class="movies__item">
+                        <div class="movies__pic">
+                            <a href="#"><img class="movies__img" src="content/movieX.png"></a>
+                        </div>
+                        <h2 class="movies__title"><a href="#">Тайная жизнь домашних животных</a></h2>
+                        <p class="movies__dates">21 декабря - 13 февраля</p>
+                    </li>
+                </ul>
+                <div class="movies__bottom">
+                    <button class="movies__more-btn">еще 9</button>
+                </div>
+            </div>
+        </section>
+    </div>
+</main>
+
+</body>
+</html>
