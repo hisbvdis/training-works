@@ -558,12 +558,11 @@ button {
     margin-bottom: 110px;
 }
 .price__link {
-    margin-bottom: 30px;
-
     text-decoration: none;
 }
 .price__item {
     padding-bottom: 45px;
+    margin-bottom: 30px;
 
     border: 1px solid #e8e8e8;
 }
@@ -951,6 +950,12 @@ button {
 ==================== */
 .map {
     flex: 0 1 50%;
+}
+.map iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    
 }
 @media (max-width: 650px) {
     .map {}

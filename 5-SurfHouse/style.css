@@ -20,7 +20,9 @@ a {
 button {
     border: none;
 }
-
+.visuallyHidden {
+    visibility: hidden;
+}
 
 /* ..container */
 .container {
@@ -188,13 +190,11 @@ button {
 .nav__checkbox:checked ~ .nav__list {
     display: block;
 }
-.nav__label {
-    cursor: pointer;
-}
 .nav__icon {
     display: none;
 }
 .nav__title {
+    display: block;
     padding: 20px 40px;
 
     color: #fff;
