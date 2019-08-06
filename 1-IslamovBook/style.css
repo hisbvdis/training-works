@@ -179,7 +179,6 @@ body {
     border: none;
     border-radius: 6px;
     box-shadow: 0 3px 6px rgba(173, 173, 173, 0.16);
-    outline: none;
 }
 
 .btn--listen {
