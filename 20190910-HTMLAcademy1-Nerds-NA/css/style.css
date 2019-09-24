@@ -227,6 +227,13 @@ textarea {
     background: #eeeeee;
 }
 
+
+
+/* ..promo-slider */
+.promo-slider {
+    position: relative;
+}
+
 .slides {
     margin: 0;
     padding: 0;
@@ -243,9 +250,46 @@ textarea {
     color: #000000;
 }
 
+.slides-switcher {
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.slides-switcher li + li {
+    margin-left: 15px;
+}
+
+.slides-switcher .switcher-option {
+    width: 18px;
+    height: 18px;
+    padding: 0;
+
+    background: #fff;
+    border: none;
+    border-radius: 50%;
+
+    cursor: pointer;
+}
+
+.slides-switcher .switcher-option--current {
+    background: radial-gradient(circle, #fff 2px, #ccc 2px, #ccc 4px, #fff 4px);
+}
+
+
+
 .services-list {
     display: flex;
     justify-content: space-between;
+    margin: 0;
+    padding: 0;
 
     line-height: 24px;
 
@@ -479,8 +523,27 @@ textarea {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
+    z-index: 2;
+
+    display: none;
     width: 90%;
+}
+
+
+
+/* ..modal-overlay */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+    display: none;
+    width: 100%;
+    height: 100%;
+
+    background: rgba(0, 0, 0, 0.8);
+    cursor: pointer;
 }
 
 
@@ -489,7 +552,7 @@ textarea {
 .modal-feedback {
     max-width: 960px;
     padding: 75px 100px 85px;
-    
+
     line-height: 18px;
 
     background: #fff;
@@ -498,7 +561,7 @@ textarea {
 .modal-feedback h2 {
     margin: 0;
     margin-bottom: 42px;
-    
+
     font-size: 45px;
     line-height: 45px;
     font-weight: 500;
@@ -516,7 +579,7 @@ textarea {
 .modal-feedback textarea {
     width: 100%;
     padding: 14px 10px;
-    
+
     color: #444444;
 
     border: 2px solid #d7dcde;
@@ -581,6 +644,7 @@ textarea {
 
     background: url("../img/modal-close.svg") center / cover no-repeat;
     border: none;
+    cursor: pointer;
 }
 
 
@@ -693,7 +757,7 @@ textarea {
 
 .standard-input:checked + .custom-checkbox {
     width: 28px;
-    
+
     background-image: url("../img/checkbox-on.svg");
 }
 
@@ -1046,4 +1110,11 @@ a.sort-type__current {
 
     background-color: #eeeeee;
     border: none;
+}
+
+
+
+/* ..modal-show */
+.modal-show {
+    display: block;
 }
