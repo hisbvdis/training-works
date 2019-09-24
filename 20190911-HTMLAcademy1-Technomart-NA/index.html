@@ -14,7 +14,7 @@
 <header class="page-header">
     <div class="header-top">
         <div class="container">
-            <a class="header-logo" href="#">
+            <a class="header-logo" href="index.html">
                 <img src="img/logo.png" width="220" height="47" alt="Логотип интернет-магазина «Техномарт»">
             </a>
             <form class="header-search">
@@ -45,13 +45,13 @@
             </div>
             <nav class="page-nav">
                 <ul class="nav-list">
-                    <li><a href="#">Главная</a></li>
-                    <li><a href="#">Компания</a></li>
-                    <li><a href="#">Каталог</a></li>
-                    <li><a href="#">Новости</a></li>
-                    <li><a href="#">Спецпредложения</a></li>
-                    <li><a href="#">Доставка</a></li>
-                    <li><a href="#">Контакты</a></li>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="catalog.html">Компания</a></li>
+                    <li><a href="catalog.html">Каталог</a></li>
+                    <li><a href="catalog.html">Новости</a></li>
+                    <li><a href="catalog.html">Спецпредложения</a></li>
+                    <li><a href="catalog.html">Доставка</a></li>
+                    <li><a href="catalog.html">Контакты</a></li>
                 </ul>
             </nav>
         </div>
@@ -63,50 +63,45 @@
         <h1 class="visually-hidden">Интернет-магазин инструментов «Техномарт»</h1>
         <section class="promo-content">
             <h2 class="visually-hidden">Промо-блок</h2>
-            <ul class="promo-list">
-                <li class="promo-item promo-item--yellow">
+            <div class="promo-list">
+                <div class="promo-item promo-item--yellow">
                     <h3>Материалы</h3>
                     <a class="btn promo__btn" href="#">На любой вкус</a>
-                </li>
-                <li class="promo-item promo-item--blue">
+                </div>
+                <div class="promo-item promo-item--blue">
                     <h3>Инструмент</h3>
                     <a class="btn promo__btn" href="#">НА ВСЕ СЛУЧАИ</a>
-                </li>
-                <li class="promo-item promo-item--fiolet">
+                </div>
+                <div class="promo-item promo-item--fiolet">
                     <h3>Техника</h3>
                     <a class="btn promo__btn" href="#">Для стройки</a>
-                </li>
-                <li class="promo-item">
-                    <figure class="promo-slider">
-                        <ul class="slides-list">
-                            <li class="slider-item slider-item--new">
-                                <h3>Дрели</h3>
-                                <p>Соседям на радость!</p>
-                                <a class="btn" href="#">ОТКРЫТЬ КАТАЛОГ</a>
-                                <img src="img/promo-slider-1.jpg" width="620" height="266" alt="Дрели в магазине «Техномарт»">
-                            </li>
-                            <li class="slider-item">
-                                <h3>Перфораторы</h3>
-                                <p>Настоящие мужские игрушки</p>
-                                <a class="btn" href="#">ОТКРЫТЬ КАТАЛОГ</a>
-                                <img src="img/promo-slider-2.jpg" width="620" height="266" alt="Перфораторы в магазине «Техномарт»">
-                            </li>
-                        </ul>
-                        <ul class="slides-switcher">
-                            <li><button type="button">Первый слайд</button>
-                            <li><button type="button">Второй слайд</button>
-                        </ul>
-                    </figure>
-                </li>
-                <li class="promo-item promo-item--green">
-                    <h3>Скидки 50%</h3>
-                    <a class="btn promo__btn" href="#">На 350 ТОВАРОВ</a>
-                </li>
-                <li class="promo-item promo-item--yellow">
-                    <h3>Доставка</h3>
-                    <a class="btn promo__btn" href="#">бесплатно</a>
-                </li>
-            </ul>
+                </div>
+                <div class="row">
+                    <div class="promo-slider">
+                        <div class="promo-slider-item">
+                            <h3>Дрели</h3>
+                            <p>Соседям на радость!</p>
+                            <a class="btn" href="#">ОТКРЫТЬ КАТАЛОГ</a>
+                            <img src="img/promo-slider-1.jpg" width="620" height="266" alt="Дрели в магазине «Техномарт»">
+                        </div>
+                        <!-- <div class="promo-slider-switcher">
+                            <div><button type="button">Первый слайд</button>
+                            <div><button type="button">Второй слайд</button>
+                            </div> -->
+                    </div>
+                    <div class="col">
+                        <div class="promo-item promo-item--green">
+                            <h3>Скидки 50%</h3>
+                            <a class="btn promo__btn" href="#">На 350 ТОВАРОВ</a>
+                        </div>
+                        <div class="promo-item promo-item--yellow">
+                            <h3>Доставка</h3>
+                            <a class="btn promo__btn" href="#">бесплатно</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </section>
 
         <section class="popular-products">
@@ -168,13 +163,13 @@
             Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.
         </p>
         <div class="services-content">
-            <ul>
+            <ul class="services-switcher">
                 <li><button class="services-btn services-btn--current" type="button">Доставка</button></li>
                 <li><button class="services-btn" type="button">Гарантия</button></li>
                 <li><button class="services-btn" type="button">Кредит</button></li>
             </ul>
-            <ul>
-                <li>
+            <ul class="services-slides">
+                <li class="services-item">
                     <h3>Доставка</h3>
                     <p>
                         Мы с удовольствием доставим ваш товар прямо<br>
@@ -184,7 +179,7 @@
                     </p>
                     <img src="img/services-1.png" width="468" height="261" alt="Доставка">
                 </li>
-                <li>
+                <!-- <li>
                     <h3>Гарантия</h3>
                     <p>
                         Если купленный у нас товар поломается или заискрит,<br>
@@ -202,7 +197,7 @@
                     </p>
                     <button class="btn" type="button">Отправить заявку</button>
                     <img src="img/services-3.png" width="465" height="285" alt="Кредит">
-                </li>
+                </li> -->
             </ul>
         </div>
     </div>

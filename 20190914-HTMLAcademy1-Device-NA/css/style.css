@@ -467,9 +467,7 @@ address {
 
 
 /* ..main */
-.main {
-    
-}
+.main {}
 
 .main .container {
     padding-top: 40px;
@@ -482,7 +480,7 @@ address {
     margin: 0;
     margin-bottom: 24px;
     padding-left: 60px;
-    
+
     font-family: "Gilroy", sans-serif;
     font-size: 47px;
     line-height: 48px;
@@ -633,6 +631,10 @@ address {
 
 
 /* ..popular */
+.popular {
+    margin-bottom: 50px;
+}
+
 .popular ul {
     list-style: none;
 }
@@ -684,8 +686,11 @@ address {
 .services {
     display: flex;
     align-items: center;
+    margin-bottom: 50px;
+    padding: 50px 0;
 
-    background: linear-gradient(to bottom, #fff 20%, #e5e5e5 20%);
+    background: #e5e5e5;
+    border: 1px solid transparent;
 }
 
 .services ul {
@@ -738,7 +743,10 @@ address {
 
 
 
-
+/* ..brands */
+.brands {
+    margin-bottom: 50px;
+}
 .brands ul {
     list-style: none;
 }
@@ -995,10 +1003,10 @@ address {
 /* ..filters */
 .filters {
     position: relative;
-    
+
     flex-basis: 330px;
     flex-shrink: 0;
-    
+
     font-size: 14px;
     line-height: 40px;
     color: #000000;
@@ -1020,11 +1028,11 @@ address {
 
 .filters h2 {
     position: relative;
-    
+
     margin: 0;
     padding: 23px 0;
     padding-left: 60px;
-    
+
     background: rgba(0, 0, 0, 0.08);
 }
 
@@ -1047,9 +1055,10 @@ address {
 
 .filters-form fieldset {
     margin: 0;
+    margin-bottom: 20px;
     padding: 0;
-    padding-top: 10px;
-    
+    padding-top: 15px;
+
     border: none;
     border-top: 2px solid #000;
 }
@@ -1061,7 +1070,7 @@ address {
 .filters-form ul {
     margin: 0;
     padding: 0;
-    
+
     list-style: none;
 }
 
@@ -1081,7 +1090,7 @@ address {
 /* ..sort */
 .sort {
     position: relative;
-    
+
     display: flex;
     align-items: center;
     padding-left: 72px;
@@ -1093,7 +1102,7 @@ address {
     top: 0;
     left: 0;
     z-index: -1;
-    
+
     width: 100vw;
     height: 100%;
 
@@ -1103,7 +1112,7 @@ address {
 .sort p {
     flex-basis: 180px;
     margin: 0;
-    margin-right: 20px  ;
+    margin-right: 20px;
     padding: 23px 0;
 }
 
@@ -1112,13 +1121,13 @@ address {
     align-items: center;
     margin: 0;
     padding: 0;
-    
+
     list-style: none;
 }
 
 .sort a {
     display: block;
-    
+
     font-family: "Open Sans";
     font-size: 14px;
     font-weight: 400;
@@ -1219,7 +1228,7 @@ address {
 .result-list .price {
     flex-shrink: 0;
     margin: 0;
-    
+
     font-family: "Gilroy";
     font-size: 16px;
     line-height: 24px;
@@ -1245,7 +1254,7 @@ address {
 .pagination a {
     display: block;
     padding: 23px 15px;
-    
+
     font-family: "Gilroy", sans-serif;
     font-size: 16px;
     line-height: 24px;
@@ -1276,8 +1285,8 @@ address {
 .pagination .prev-next {
     padding-left: 40px;
     padding-right: 40px;
-    
-    
+
+
 }
 
 .pagination .prev-next:hover,

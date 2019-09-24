@@ -17,11 +17,11 @@
             <li><a href="#">ИНФОРМАЦИЯ</a></li>
             <li><a href="#">НОВОСТИ</a></li>
             <li><a href="#">ПРАЙС-ЛИСТ</a></li>
-            <li><a href="#">МАГАЗИН</a></li>
+            <li><a href="catalog.html">МАГАЗИН</a></li>
             <li><a href="#">КОНТАКТЫ</a></li>
         </ul>
         <ul class="user-nav">
-            <li><a href="#" onclick="console.log(document.querySelector('.modal-wrapper--login').style.display = 'block')">Вход</a></li>
+            <li><a class="login-link" href="#">Вход</a></li>
         </ul>
     </nav>
 </header>
@@ -30,7 +30,9 @@
     <h1 class="visually-hidden">Барбершоп «Бородинский»</h1>
 
     <div class="logo">
-        <img src="img/logo-big.svg" width="371" height="155" alt="Логотип барбершопа «Бородинский»">
+        <a href="index.html">
+            <img src="img/logo-big.svg" width="371" height="155" alt="Логотип барбершопа «Бородинский»">
+        </a>
     </div>
 
     <section class="features">
@@ -94,7 +96,7 @@
                 ПН—ПТ: С 10:00 ДО 22:00<br>
                 СБ—ВС: С 10:00 ДО 19:00
             </p>
-            <a class="btn btn--min-width" href="#">КАК ПРОЕХАТЬ</a>
+            <a class="btn btn--min-width open-map" href="#">КАК ПРОЕХАТЬ</a>
             <a class="btn btn--min-width" href="#">ОБРАТНАЯ СВЯЗЬ</a>
         </section>
         <section class="appointment">
@@ -167,17 +169,17 @@
     </div>
 </footer>
 
-<!-- <section class="modal modal-login">
+<section class="modal modal-login">
     <h2 class="section-title">ЛИЧНЫЙ КАБИНЕТ</h2>
     <p class="modal-login-notice">Введите пожалуйста свой логин и пароль</p>
-    <form class="login-form">
+    <form class="login-form" action="https://echo.htmlacademy.ru/" method="POST">
         <p class="login-form-field login-form-field--login">
             <label class="visually-hidden" for="login-form-login">Логин</label>
             <input class="login-form-input" id="login-form-login" type="text" name="login" placeholder="ЛОГИН" autocomplete="off">
         </p>
         <p class="login-form-field login-form-field--pass">
             <label class="visually-hidden" for="login-form-pass">Пароль</label>
-            <input class="login-form-input" id="login-form-pass" type="password" name="pass" placeholder="ПАРОЛЬ" autocomplete="off">
+            <input class="login-form-input" id="login-form-pass" type="password" name="password" placeholder="ПАРОЛЬ" autocomplete="off">
         </p>
         <p class="login-form-field login-help">
             <label>
@@ -190,15 +192,18 @@
         <button class="btn" type="submit">ВОЙТИ</button>
     </form>
     <button class="modal-close-btn"><span class="visually-hidden">Закрыть</span></button>
-</section> -->
+</section>
 
-<!-- <section class="modal modal-map">
+<section class="modal modal-map">
     <h2 class="visually-hidden">Как до нас добраться</h2>
     <img src="img/map.jpg" width="766" height="561" alt="Адрес барбершопа «Бородинский»: Санкт-Петербург, Б.Конюшенная, д.19/8">
     <button class="modal-close-btn"><span class="visually-hidden">Закрыть</span></button>
-</section> -->
+</section>
 
-<!-- <div class="modal-overlay"></div> -->
+
+<div class="modal-overlay"></div>
+
+<script src="script/script.js"></script>
 
 </body>
 </html>
