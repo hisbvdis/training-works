@@ -228,8 +228,10 @@
                 Вы можете забрать товар сами,<br>
                 заехав в наш офис:
             </p>
-            <img src="img/map.jpg" width="300" height="158" alt="г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8">
-            <button class="btn" type="button">Заблудились? НапиШИТЕ НАМ!</button>
+            <button class="contacts-map-btn">
+                <img src="img/map.jpg" width="300" height="158" alt="г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8">
+            </button>
+            <button class="btn js-btn--feedback" type="button">Заблудились? НапиШИТЕ НАМ!</button>
         </section>
     </div>
 </div>
@@ -296,9 +298,9 @@
     </div>
 </footer>
 
-<!-- <section class="modal modal-feedback">
+<section class="modal modal-feedback">
     <h2 class="visually-hidden">Форма обратной связи</h2>
-    <form class="feedback-form" action="http://echo.htmlacademy.ru">
+    <form class="feedback-form" action="http://echo.htmlacademy.ru" method="POST">
         <p class="field-group">
             <label>
                 <span>Ваше имя:</span>
@@ -306,7 +308,7 @@
             </label>
             <label>
                 <span>Ваш e-mail:</span>
-                <input type="text" name="email" placeholder="email@example.com">
+                <input type="email" name="email" placeholder="email@example.com" autocomplete="off">
             </label>
         </p>
         <p>
@@ -315,21 +317,20 @@
                 <textarea name="message" placeholder="В свободной форме"></textarea>
             </label>
         </p>
-
+        <div class="btn-block">
+            <button class="btn submit-btn" type="submit">Отправить</button>
+        </div>
     </form>
-    <div class="btn-block">
-        <button class="btn submit-btn" type="submit">Отправить</button>
-    </div>
     <button class="modal-close" type="button"><span class="visually-hidden">Закрыть</span></button>
-</section> -->
+</section>
 
-<!-- <section class="modal modal-map">
+<section class="modal modal-map">
     <h2 class="visually-hidden">Как к нам добраться</h2>
     <img src="img/map-big.jpg" width="940" height="447" alt="Адрес магазина «Technomart»: г.Санкт-Петербург, ул. Б. Конюшенная, д. 19/8">
     <button class="modal-close" type="button"><span class="visually-hidden">Закрыть</span></button>
-</section> -->
+</section>
 
-<!-- <section class="modal modal-cart">
+<section class="modal modal-cart">
     <div class="cart-top">
         <img src="img/cart-adding.svg" width="66" height="66" alt="Товар добавлен в корзину!">
         <h2>Товар добавлен в корзину!</h2>
@@ -338,7 +339,12 @@
         <a class="btn" href="#">Оформить заказ</a>
         <button class="btn btn--white" type="button">ПРОДОЛЖИТЬ ПОКУПКИ</button>
     </div>
-</section> -->
+    <button class="modal-close" type="button"><span class="visually-hidden">Закрыть</span></button>
+</section>
+
+<div class="modal-overlay"></div>
+
+<script src="js/script.js"></script>
 
 </body>
 </html>

@@ -219,21 +219,21 @@
 
 <section class="modal modal-feedback">
     <h2>Напишите нам</h2>
-    <form class="feedback-form">
+    <form class="feedback-form" action="https://echo.htmlacademy.ru" method="POST">
         <p class="field-group">
             <label>
                 <span class="input-title">Ваше имя:</span>
-                <input type="text" name="name" placeholder="Имя Фамилия" autocomplete="off">
+                <input type="text" name="name" placeholder="Имя Фамилия" autocomplete="off" >
             </label>
             <label>
                 <span class="input-title">Ваш e-mail:</span>
-                <input type="text" name="name" placeholder="email@example.com" autocomplete="off">
+                <input type="email" name="email" placeholder="email@example.com" autocomplete="off" >
             </label>
         </p>
         <p class="form-field">
             <label>
                 <span class="input-title">Текст письма:</span>
-                <textarea name="message" placeholder="В свободной форме" autocomplete="off"></textarea>
+                <textarea name="message" placeholder="В свободной форме" autocomplete="off" ></textarea>
             </label>
         </p>
         <button class="btn" type="submit">ОТПРАВИТЬ</button>

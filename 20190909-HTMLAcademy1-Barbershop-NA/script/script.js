@@ -55,6 +55,18 @@ loginLink.addEventListener("click", function(evt) {
     })
 });
 
+// Login form checking
+loginForm.addEventListener('submit', function(evt) {
+    if (!loginField.value || !passField.value) {
+        evt.preventDefault();
+        console.log("Need to fill in the fields");
+    } else {
+        if (localStorageSupport) {
+            localStorage.setItem('userLogin', loginField.value);
+        }
+    }
+})
+
 // Modal Map open
 mapLink.addEventListener('click', function(evt) {
     evt.preventDefault();
@@ -83,16 +95,4 @@ mapLink.addEventListener('click', function(evt) {
             modalOverlay.classList.remove("modal-show");
         }
     })
-})
-
-// Login form checking
-loginForm.addEventListener('submit', function(evt) {
-    if (!loginField.value || !passField.value) {
-        evt.preventDefault();
-        console.log("Need to fill in the fields");
-    } else {
-        if (localStorageSupport) {
-            localStorage.setItem('userLogin', loginField.value);
-        }
-    }
 })
