@@ -11,3 +11,4 @@
 10. [20190912-HTMLAcademy1-Sedona-NA](https://hisbvdis.github.io/training-works/20190912-HTMLAcademy1-Sedona-NA/index.html)
 11. [20190913-HTMLAcademy1-Gllacy-NA](https://hisbvdis.github.io/training-works/20190913-HTMLAcademy1-Gllacy-NA/index.html)
 12. [20190914-HTMLAcademy1-Device-NA](https://hisbvdis.github.io/training-works/20190914-HTMLAcademy1-Device-NA/index.html)
+13. [20190924-HTMLAcademy2-Barbershop](https://hisbvdis.github.io/training-works/20190924-HTMLAcademy2-Barbershop/build/index.html)
