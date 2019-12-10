@@ -14,21 +14,21 @@ function removeShow() {
 };
 
 navButton.addEventListener('click', function(e) {
-  e.preventDefault;
+  e.preventDefault();
   nav.classList.toggle('nav--opened');
 });
 
 document.onload = removeShow();
 
 navUnderlay.addEventListener('click', function(e) {
-  e.preventDefault;
+  e.preventDefault();
   nav.classList.toggle('nav--opened');
 })
 
 
 // Login modal open/close
 userPanelLoginBtn.addEventListener('click', function(e) {
-  e.preventDefault;
+  e.preventDefault();
   nav.classList.remove('nav--opened');
   loginModal.classList.add('modal--show');
   modalUnderlay.classList.add('modal-underlay--show');
@@ -40,14 +40,14 @@ userPanelLoginBtn.addEventListener('click', function(e) {
   })
 
   modalUnderlay.addEventListener('click', function(e) {
-    e.preventDefault;
+    e.preventDefault();
     loginModal.classList.remove('modal--show');
     modalUnderlay.classList.remove('modal-underlay--show');
   })
 
   window.addEventListener('keydown', function(e) {
     if (e.keyCode == 27 && loginModal.classList.contains('modal--show')) {
-      e.preventDefault;
+      e.preventDefault();
       loginModal.classList.remove('modal--show');
       modalUnderlay.classList.remove('modal-underlay--show');
     }

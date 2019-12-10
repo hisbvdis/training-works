@@ -13,7 +13,7 @@ var inputMessage = modalFeedback.querySelector('[name="message"');
 var localStorageLogin = localStorage.getItem('login');
 
 buttonFeedback.addEventListener('click', function(evt) {
-    evt.preventDefault;
+    evt.preventDefault();
     modalOverlay.classList.add('modal-show');
     modalFeedback.classList.add('modal-show');
     if (localStorageLogin) {
@@ -25,12 +25,12 @@ buttonFeedback.addEventListener('click', function(evt) {
 
     modalClose = modalFeedback.querySelector('.modal-close');
     modalClose.addEventListener('click', function(evt) {
-        evt.preventDefault;
+        evt.preventDefault();
         modalOverlay.classList.remove('modal-show');
         modalFeedback.classList.remove('modal-show');
     })
     modalOverlay.addEventListener('click', function(evt) {
-        evt.preventDefault;
+        evt.preventDefault();
         modalOverlay.classList.remove('modal-show');
         modalFeedback.classList.remove('modal-show');
     })

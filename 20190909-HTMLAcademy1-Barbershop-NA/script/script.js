@@ -48,7 +48,7 @@ loginLink.addEventListener("click", function(evt) {
 
     window.addEventListener('keydown', function(evt) {
         if (evt.keyCode === 27 && modal.classList.contains("modal-show")) {
-            evt.preventDefault;
+            evt.preventDefault();
             modal.classList.remove("modal-show");
             modalOverlay.classList.remove("modal-show");
         }
@@ -90,7 +90,7 @@ mapLink.addEventListener('click', function(evt) {
 
     window.addEventListener('keydown', function(evt) {
         if (evt.keyCode === 27 && modal.classList.contains("modal-show")) {
-            evt.preventDefault;
+            evt.preventDefault();
             modal.classList.remove("modal-show");
             modalOverlay.classList.remove("modal-show");
         }
