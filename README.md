@@ -14,3 +14,4 @@
 13. [20190924-HTMLAcademy2-Barbershop](https://hisbvdis.github.io/training-works/20190924-HTMLAcademy2-Barbershop/build/)
 14. [20191209-HTMLAcademy2-Mishka](https://hisbvdis.github.io/training-works/20191209-HTMLAcademy2-Mishka/build/)
 15. [20200128-HTMLAcademy2-CatEnergy](https://hisbvdis.github.io/training-works/20200128-HTMLAcademy2-CatEnergy/build/)
+16. [20200309-HTMLAcademy2-Pink](https://hisbvdis.github.io/training-works/20200309-HTMLAcademy2-Pink/build/)
