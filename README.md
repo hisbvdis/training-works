@@ -16,3 +16,4 @@
 15. [20200128-HTMLAcademy2-CatEnergy](https://hisbvdis.github.io/training-works/20200128-HTMLAcademy2-CatEnergy/build/)
 16. [20200309-HTMLAcademy2-Pink](https://hisbvdis.github.io/training-works/20200309-HTMLAcademy2-Pink/build/)
 17. [20200608-HTMLAcademy2-Sedona](https://hisbvdis.github.io/training-works/20200608-HTMLAcademy2-Sedona/build/)
+18. [20201110-MainCoon](https://hisbvdis.github.io/training-works/20201110-MainCoon/build/)
