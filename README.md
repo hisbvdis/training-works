@@ -1,5 +1,6 @@
 # Training works
 
+| Type             | Link                        |
 |------------------|-----------------------------|
 | Markup           | [Folder](./markup)          |
 | JavaScript       | [Folder](./javascript/)     |
