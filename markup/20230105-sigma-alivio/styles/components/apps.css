@@ -1,0 +1,41 @@
+.apps {
+  text-align: center;
+}
+
+.apps__list {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+  margin-block-start: 5px;
+  padding: 0;
+
+  list-style: none;
+}
+
+.apps__link {
+  display: block;
+  inline-size: 216px;
+  block-size: 65px;
+
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.apps__link--googlePlay {
+  background-image: url("../../images/google-play.svg");
+}
+
+.apps__link--appStore {
+  background-image: url("../../images/app-store.svg");
+}
+
+
+@media (min-width: 992px) {
+  .apps__list {
+    flex-direction: row;
+  }
+}

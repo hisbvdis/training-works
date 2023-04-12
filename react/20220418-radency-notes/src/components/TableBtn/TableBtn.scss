@@ -1,0 +1,21 @@
+.tableBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  inline-size: 30px;
+  block-size: 30px;
+  padding: 0;
+
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.tableBtn__icon {
+  inline-size: 70%;
+  block-size: 70%;
+}
+
+.tableBtn:hover {
+  background: #fff;
+}

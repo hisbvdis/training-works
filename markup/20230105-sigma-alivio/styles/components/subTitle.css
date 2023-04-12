@@ -1,0 +1,17 @@
+.subTitle {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+@media (min-width: 576px) {
+  .subTitle {
+    font-size: 19px;
+  }
+}
+
+@media (min-width: 992px) {
+  .subTitle {
+    font-size: 24px;
+  }
+}

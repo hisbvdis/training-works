@@ -1,0 +1,7 @@
+.page {
+  position: relative;
+
+  background: 
+    radial-gradient(circle 500px at -400px 250px, #D5AEE4 20%, transparent 100%),
+    url("../images/decore.svg") top right / min(50vw, 700px) no-repeat;
+}

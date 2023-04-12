@@ -1,0 +1,12 @@
+:root {
+  scroll-padding-block-start: 90px;
+}
+
+body {
+  min-inline-size: 320px;
+  
+  font-family: "Open Sans", sans-serif;
+  color: $black-regular;
+  
+  overflow-y: scroll;
+}

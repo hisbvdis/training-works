@@ -1,0 +1,61 @@
+.subscribe__inner {
+  position: relative;
+
+  padding: fluid(20px, 80px);
+  
+  background: rgb(223 215 249 / 0.2);
+  border-radius: fluid(30px, 129px) 20px 20px 20px;
+}
+
+.subscribe__inner::before {
+  content: "";
+  position: absolute;
+  inset-block-start: 0;
+  inset-inline-end: 0;
+  translate: 25% -25%;
+
+  display: block;
+  inline-size: fluid(35px, 70px);
+  block-size: fluid(35px, 70px);
+
+  background: url("../images/subscribe-send.svg") center / cover no-repeat;
+}
+
+.subscribe__text {
+  margin-block-end: fluid(20px, 75px);
+  
+  font-size: fluid(18px, 33px);
+  line-height: 1.6;
+  font-weight: 600;
+  text-align: center;
+}
+
+.subscribe__form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.subscribe__btn {
+  padding: 22px 50px;
+
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  color: #fff;
+  
+  background: linear-gradient(180deg, #FF946D 0%, #FF7D68 100%);
+  border: none;
+  border-radius: 10px;
+}
+
+
+@media (min-width: $md) {
+  .subscribe__inner {
+    background: 
+      url("../images/subscribe-decor-1.svg") -20% -100% no-repeat,
+      url("../images/subscribe-decor-2.svg") 120% -50% no-repeat,
+      rgb(223 215 249 / 0.2);
+  }
+}

@@ -1,0 +1,20 @@
+.progressBar {
+  --scroll: 0%;
+
+  position: relative;
+
+  block-size: 2px;
+}
+
+.progressBar::before {
+  content: "";
+  position: absolute;
+  inset-block: 0;
+  inset-inline-start: 0;
+
+  inline-size: var(--scroll);
+
+  background-color: $brown;
+  
+  transition: inline-size 0.2s;
+}

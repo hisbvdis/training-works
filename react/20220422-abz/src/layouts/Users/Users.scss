@@ -1,0 +1,17 @@
+.users {
+  padding-block: 140px;
+}
+
+.users__heading {
+  margin-block-end: 50px;
+}
+
+.users__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 20px;
+  margin: 0 0 50px;
+  padding: 0;
+
+  list-style: none;
+}

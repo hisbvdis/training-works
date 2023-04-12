@@ -1,0 +1,41 @@
+.field {
+  inline-size: min(100%, 420px);
+}
+
+.field__inner {
+  position: relative;
+
+  display: block;
+  inline-size: 100%;
+  
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.field__icon {
+  position: absolute;
+  inset-block-start: 50%;
+  inset-inline-start: 25px;
+  translate: 0 -50%;
+}
+
+.field__icon--envelop {
+  inline-size: 21px;
+  block-size: 18px;
+
+  background: url("../images/envelop.svg") center / cover no-repeat;
+}
+
+.field__input {
+  inline-size: 100%;
+  padding: 25px 25px 25px 60px;
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+
+  border: none;
+}
+
+.field__input:focus {
+  outline: none;
+}

@@ -1,0 +1,68 @@
+.review__card {
+  position: relative;
+
+  display: inline-block;
+  padding: 30px;
+  
+  border-radius: 10px;
+  box-shadow: $card-shadow;
+}
+
+.review__photo {
+  display: block;
+  inline-size: 68px;
+  block-size: 68px;
+  margin-block-end: 10px;
+
+  border-radius: 50%;
+}
+
+.review__text {
+  margin-block-end: 30px;
+  
+  line-height: 2;
+  font-weight: 500;
+}
+
+.review__name {
+  margin-block-end: 5px;
+  
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.review__city {
+  font-size: 14px;
+}
+
+
+@media (min-width: $md) {
+  .review__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+  }
+
+  .review__subHeading {
+    text-align: start;
+  }
+
+  .review__heading {
+    text-align: start;
+  }
+
+  .review__card {
+    margin-block-start: 34px;
+  }
+
+  .review__photo {
+    position: absolute;
+    inset-block-start: 0;
+    inset-inline-start: 0;
+    translate: -50% -50%;
+  }
+
+  .review__text {
+    max-inline-size: 410px;
+  }
+}

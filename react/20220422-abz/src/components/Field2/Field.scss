@@ -1,0 +1,22 @@
+.field {
+  position: relative;
+
+  display: inline-block;
+}
+
+.field__input {
+  display: block;
+  padding: 0;
+  
+  border: none;
+  background: red;
+}
+
+.field__fieldset {
+  position: absolute;
+  inset: 0;
+  
+  margin: 0;
+  padding: 0;
+  border: 1px solid #000;
+}

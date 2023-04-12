@@ -1,0 +1,30 @@
+.field__input {
+  inline-size: 100%;
+  padding: 15px 35px;
+  
+  font-family: "Raleway", sans-serif;
+  font-size: $fontSize-18;
+  color: $black-darker;
+
+  background-color: $gray-darker;
+  border: 1px solid transparent;
+  border-radius: 20px 0px;
+}
+
+.field__input::placeholder {
+  color: $black-regular;
+}
+
+.field__input--invalid {
+  outline-color: red;
+  border-color: red;
+}
+
+.field__error {
+  block-size: 1em;
+  margin-block-start: 5px;
+  
+  font-size: 14px;
+  line-height: 1;
+  color: red;
+}

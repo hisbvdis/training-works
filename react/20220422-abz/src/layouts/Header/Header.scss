@@ -1,0 +1,15 @@
+@import "../../assets/styles/base/variables.scss";
+
+.header {
+  background: $white;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  padding-block: 13px;
+}
+
+.header__logo {
+  margin-inline-end: auto;
+}

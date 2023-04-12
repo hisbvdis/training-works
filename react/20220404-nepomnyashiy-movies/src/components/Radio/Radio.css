@@ -1,0 +1,9 @@
+.radio {
+  cursor: pointer;
+}
+
+.radio__input {
+  margin-inline-end: 10px;
+
+  cursor: pointer;
+}

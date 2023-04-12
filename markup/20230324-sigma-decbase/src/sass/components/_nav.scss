@@ -1,0 +1,79 @@
+:where(.nav) {
+  display: flex;
+}
+
+.nav {
+  flex-direction: column;
+  padding-block-end: 20px;
+  
+  background-color: $white;
+  box-shadow: 0 5px 10px rgb(0 0 0 / 0.03);
+}
+
+.page--navOpened .nav {
+  display: flex;
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 20px 0;
+
+  list-style: none;
+}
+
+.nav__item--button {
+  margin-block-start: 20px;
+}
+
+.nav__link {
+  display: block;
+  padding: 10px 30px;
+
+  font-size: $fontSize-18;
+  color: $black-regular;
+  text-decoration: none;
+  text-align: center;
+
+  border: 5px solid transparent;
+  border-radius: 20px;
+}
+
+.nav__link:hover {
+  color: $green;
+  
+  border: 5px solid $green;
+}
+
+
+@media (min-width: $md) {
+  .nav {
+    padding-block-end: 0;
+    
+    box-shadow: none;
+  }
+  
+  .nav__list {
+    flex-direction: row;
+    padding: 0;
+  }
+
+  .nav__link {
+    padding-inline: fluid(10px, 20px, $lg);
+  }
+
+  .nav__item--button {
+    display: none;
+  }
+}
+
+
+@media (min-width: $lg) {
+  .nav__item--button {
+    display: block;
+    margin-block-start: 0;
+    margin-inline-start: 15px;
+  }
+}

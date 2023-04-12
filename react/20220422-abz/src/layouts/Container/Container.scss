@@ -1,0 +1,13 @@
+@import "../../assets/styles/base/variables.scss";
+
+.container {
+  max-inline-size: 1170px;
+  margin-inline: auto;
+  padding-inline: 16px;
+}
+
+@media (min-width: $tablet) {
+  .container {
+    padding-inline: 32px;
+  }
+}

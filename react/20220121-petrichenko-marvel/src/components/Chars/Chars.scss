@@ -1,0 +1,69 @@
+@import "../../style/base/variables.scss";
+
+.chars {
+  margin-block-end: 50px;
+
+  text-align: center;
+  
+  overflow-x: scroll;
+}
+
+.chars__list {
+  display: flex;
+  gap: 15px;
+  margin-block-end: 50px;
+  text-align: start;
+}
+
+.chars__item {
+  flex: 0 0 min(85%, 320px);
+  
+  box-shadow: 0 0 5px rgb(0 0 0 / 0.2);
+}
+
+.chars__link {
+  display: flex;
+  flex-direction: column;
+}
+
+.chars__img {
+  display: block;
+  inline-size: 100%;
+  max-block-size: 200px;
+
+  object-fit: cover;
+}
+
+.chars__info {
+  padding: 15px;
+  
+  color: #fff;
+  
+  background-color: #232222;
+}
+
+.chars__name {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.chars__btn {
+  min-inline-size: 200px;
+}
+
+
+@media (min-width: $sm) {
+  .chars {
+    overflow-x: unset;
+  }
+
+  .chars__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+  }
+
+  .chars__info {
+    min-block-size: 100px;
+  }
+}

@@ -1,0 +1,79 @@
+.partners__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.partners__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+
+  border-radius: 10px;
+}
+
+.partners__item::before {
+  content: "";
+
+  display: block;
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  filter: grayscale(1);
+}
+
+.partners__item:hover {
+  box-shadow: $card-shadow;
+}
+
+.partners__item:hover::before {
+  filter: grayscale(0);
+}
+
+.partners__item--axon::before {
+  inline-size: 118px;
+  block-size: 36px;
+  
+  background-image: url("../images/partners-1.webp");
+}
+
+.partners__item--jetstar::before {
+  inline-size: 125px;
+  block-size: 34px;
+  
+  background-image: url("../images/partners-2.webp");
+}
+
+.partners__item--expedia::before {
+  inline-size: 162px;
+  block-size: 46px;
+  
+  background-image: url("../images/partners-3.webp");
+}
+
+.partners__item--qantas::before {
+  inline-size: 162px;
+  block-size: 32px;
+  
+  background-image: url("../images/partners-4.webp");
+}
+
+.partners__item--alitalia::before {
+  inline-size: 94px;
+  block-size: 21px;
+  
+  background-image: url("../images/partners-5.webp");
+}
+
+
+@media (min-width: $xl) {
+  .partners__list {
+    justify-content: space-between;
+  }
+}

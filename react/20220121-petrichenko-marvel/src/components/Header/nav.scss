@@ -1,0 +1,20 @@
+@import "../../style/base/variables.scss";
+
+.nav__link {
+  font-size: 16rem;
+  font-weight: 600;
+  color: #000;
+  text-decoration: none;
+}
+
+@media (min-width: $md) {
+  .nav__link {
+    font-size: 18rem;
+  }
+}
+
+@media (min-width: $xl) {
+  .nav__link {
+    font-size: 22rem;
+  }
+}

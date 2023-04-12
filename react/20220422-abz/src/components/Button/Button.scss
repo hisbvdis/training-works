@@ -1,0 +1,35 @@
+@import "../../assets/styles/base/variables.scss";
+
+.btn {
+  display: inline-flex;
+  min-inline-size: 100px;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 20px;
+
+  font-size: $fontSize;
+  line-height: $lineHeight;
+  text-decoration: none;
+
+  background-color: $primary;
+  border-radius: 80px;
+  border: none;
+
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus-visible {
+  background-color: $primary-hover;
+}
+
+.btn:active {
+  background-color: $primary;
+}
+
+.btn:disabled {
+  color: $white-87;
+  
+  background-color: $disabled;
+  cursor: not-allowed;
+}

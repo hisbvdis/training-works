@@ -1,0 +1,9 @@
+@import "../base/variables.scss";
+
+.heading {
+  margin-block: 0;
+  
+  font-size: $fontSize-heading;
+  line-height: $lineHeight-heading;
+  font-weight: 400;
+}

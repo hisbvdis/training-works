@@ -1,0 +1,64 @@
+.social__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.social__link {
+  position: relative;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  inline-size: 41px;
+  block-size: 41px;
+
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+}
+
+.social__link:hover {
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.social__link::before {
+  content: "";
+  position: absolute;
+  inset-block-start: 50%;
+  inset-inline-start: 50%;
+  translate: -50% -50%;
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.social__link--facebook::before {
+  inline-size: 6px;
+  block-size: 13px;
+  
+  background-image: url("../images/facebook.svg");
+}
+
+.social__link--instagram {
+  background: conic-gradient(from 180deg at 50% 50%, #B8D2F1 0deg, #F289AA 60deg, #C68BF0 106.09deg, #D164DA 153.75deg, #C963E8 221.25deg, #BFC2E8 258.75deg, #FFC999 288.75deg, #D0D8C9 315deg, #BAD0F1 334.13deg, #CED8CB 358.97deg, rgba(255, 255, 255, 0) 360deg);
+}
+
+.social__link--instagram::before {
+  inline-size: 16px;
+  block-size: 16px;
+  
+  background-image: url("../images/instagram.svg");
+}
+
+.social__link--twitter::before {
+  inline-size: 16px;
+  block-size: 13px;
+  
+  background-image: url("../images/twitter.svg");
+}

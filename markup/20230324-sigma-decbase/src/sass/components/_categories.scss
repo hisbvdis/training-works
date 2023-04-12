@@ -1,0 +1,46 @@
+.categories {
+  position: relative;
+  
+  margin: 0;
+  padding: 0;
+  
+  border: none;
+}
+
+.categories__list {
+  display: flex;
+  gap: fluid(10px, 70px);
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+  overflow-x: auto;
+}
+
+.categories__item {
+  flex-shrink: 0;
+}
+
+.categories__label {
+  display: block;
+  padding: 0.6em 1.35em;
+  
+  font-size: $fontSize-16;
+  font-weight: 700;
+  color: $white;
+  text-align: center;
+  text-transform: uppercase;
+  user-select: none;
+  
+  background-color: $green;
+  border: 5px solid transparent;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.categories__input:checked + .categories__label {
+  color: $green;
+  
+  background-color: $white;
+  border: 5px solid $green;
+}

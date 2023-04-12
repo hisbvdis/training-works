@@ -1,0 +1,24 @@
+.playBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 1.18em;
+
+  font-size: 17px;
+  font-size: fluid(12px, 17px);
+  line-height: 1.53;
+  
+  background: none;
+  border: none;
+}
+
+.playBtn::before {
+  content: "";
+
+  display: block;
+  inline-size: 3em;
+  block-size: 3em;
+  
+  background: url("../images/play.svg") center / cover no-repeat;
+  border-radius: 50%;
+  filter: drop-shadow(0 15px 30px $red-opacity-60);
+}

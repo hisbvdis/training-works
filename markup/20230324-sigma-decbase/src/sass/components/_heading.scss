@@ -1,0 +1,29 @@
+.heading {
+  font-family: "Poppins", sans-serif;
+  font-size: fluid(24px, 48px);
+  line-height: 1.1;
+  font-weight: 500;
+  color: $black-darker;
+}
+
+.heading--big {
+  font-size: fluid(36px, 72px);
+  font-weight: 600;
+}
+
+.heading--center {
+  text-align: center;
+}
+
+.heading__bigFragment {
+  display: block;
+  
+  font-size: 288px;
+  line-height: 1;
+  font-weight: 700;
+
+  background: url("../../images/heading-bg.webp") 15% 70% / 200% no-repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "category": {
+      "id": "interior",
+      "title": "Interior design"
+    },
+    "items": [
+      {
+        "name": "Interior Design 1",
+        "desc": "Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore."
+      },
+      {
+        "name": "Interior Design 2",
+        "desc": "Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore."
+      },
+      {
+        "name": "Interior Design 3",
+        "desc": "Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore."
+      }
+    ]
+  },
+  {
+    "category": {
+      "id": "architecture",
+      "title": "Architecture"
+    },
+    "items": [
+      {
+        "name": "Architecture 1",
+        "desc": "Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore."
+      },
+      {
+        "name": "Architecture 2",
+        "desc": "Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore."
+      },
+      {
+        "name": "Architecture 3",
+        "desc": "Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore."
+      }
+    ]
+  },
+  {
+    "category": {
+      "id": "planning",
+      "title": "Planning"
+    },
+    "items": [
+      {
+        "name": "Planning 1",
+        "desc": "Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore."
+      },
+      {
+        "name": "Planning 2",
+        "desc": "Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore."
+      },
+      {
+        "name": "Planning 3",
+        "desc": "Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore."
+      }
+    ]
+  }
+]

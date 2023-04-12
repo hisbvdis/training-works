@@ -1,0 +1,19 @@
+.section {
+  padding-block: fluid(30px, 90px);
+}
+
+.section--gray {
+  background-color: $gray-regular;
+}
+
+.section__subHeading {
+  margin-block-end: fluid(5px, 15px);
+}
+
+.section__heading {
+  margin-block-end: fluid(10px, 30px);
+}
+
+.section__btn {
+  margin-block-start: fluid(10px, 40px);
+}

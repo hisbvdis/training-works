@@ -1,0 +1,50 @@
+:where(.actions) {
+  display: flex;
+}
+
+.actions {
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  gap: 10px;
+}
+
+.actions__item {
+  padding: 9px 22px;
+  
+  font: inherit;
+  color: inherit;
+
+  border: none;
+  background: none;
+}
+
+.actions__item--border {
+  border: 1px solid #212832;
+  border-radius: 5px;
+}
+
+.actions__item--lang {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+
+  padding-inline: 10px;
+}
+
+.actions__item--lang::after {
+  content: "";
+
+  display: block;
+  inline-size: 9px;
+  block-size: 5px;
+
+  background: url("../images/arrow-down.svg") center / cover no-repeat;
+}
+
+
+@media (min-width: $md) {
+  .actions {
+    flex-direction: row;
+  }
+}

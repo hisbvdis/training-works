@@ -1,0 +1,79 @@
+@import "../../style/base/variables.scss";
+
+.promo {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.promo__info {
+  padding: 15px;
+  
+  color: #fff;
+  text-align: center;
+  
+  background-color: #232222;
+}
+
+.promo__infoText {
+  margin-block-end: 5px;
+}
+
+.promo__btn {
+  margin-block-start: 15px;
+}
+
+@media (min-width: $sm) {
+  .promo {
+    flex-direction: row-reverse;
+    gap: 0;
+
+    box-shadow: 5px 5px 20px rgb(0 0 0 / 0.25);
+  }
+
+  .promo__info {
+    flex: 0 0 calc(100% / 3);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    
+    font-weight: 600;
+    text-align: start;
+  }
+
+  .promo__infoText--last {
+    margin-block-start: 30px;
+  }
+
+  .promo__RandomChar {
+    flex: 1 0 0;
+  }
+
+  .promo__btn {
+    margin-block-start: auto;
+  }
+}
+
+@media (min-width: $xl) {
+  .promo__info {
+    flex: 0 0 40%;
+    padding: 40px 35px;
+
+    font-size: 18rem;
+    background:
+      url("../../../public/img/hammer.webp") right bottom no-repeat,
+      #232222
+  }
+
+  .promo__RandomChar {
+    padding: 40px 35px;
+  }
+}
+
+@media (min-width: $xxl) {
+  .promo__info {
+    flex: 0 0 50%;
+
+    font-size: 24rem;
+  }
+}

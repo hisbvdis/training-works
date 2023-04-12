@@ -1,0 +1,36 @@
+.title {
+  font-family: "Georgia", serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.title--big {
+  font-size: 25px;
+  line-height: 1.15;
+}
+
+.title--white {
+  color: #fff;
+}
+
+
+@media (min-width: 576px) {
+  .title {
+    font-size: 35px;
+  }
+
+  .title--big {
+    font-size: 45px;
+  }
+}
+
+@media (min-width: 992px) {
+  .title {
+    font-size: 50px;
+  }
+
+  .title--big {
+    font-size: 65px;
+  }
+}

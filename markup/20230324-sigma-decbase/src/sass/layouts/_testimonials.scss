@@ -1,0 +1,127 @@
+.testimonials {
+  text-align: center;
+}
+
+.testimonials__heading {
+  margin-block-end: 30px;
+}
+
+.testimonials__buttons {
+  display: flex;
+  justify-content: end;
+  gap: 30px;
+  margin: 0;
+  padding: 0 30px;
+
+  list-style: none;
+}
+
+.testimonials__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  inline-size: 40px;
+  block-size: 40px;
+
+  border-radius: 50%;
+  border: none;
+  background: $white;
+  box-shadow: -1px 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+.testimonials__btn:hover {
+  background-color: $green;
+}
+
+.testimonials__btnIcon {
+  display: block;
+  inline-size: 9px;
+  block-size: 14px;
+
+  stroke: $black-regular;
+}
+
+.testimonials__btn:hover .testimonials__btnIcon {
+  stroke: $white;
+}
+
+.testimonials__list {
+  display: flex;
+  gap: 70px;
+  margin: 0;
+  padding: 30px;
+
+  list-style: none;
+  overflow-x: hidden;
+
+  scroll-snap-type: mandatory;
+  scroll-snap-type: x mandatory;
+  scroll-padding: 30px;
+}
+
+.testimonials__item {
+  position: relative;
+  
+  flex: 0 0 100%;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: min-content 1fr;
+  gap: 10px 30px;
+  padding: fluid(20px, 40px);
+
+  text-align: start;
+  
+  background: $white;
+  box-shadow: 7px 7px 20px 5px rgba(66, 96, 84, 0.15);
+  border-radius: fluid(35px, 70px) 0px;
+
+  scroll-snap-align: start;
+}
+
+.testimonials__item::before {
+  content: "”";
+  position: absolute;
+  inset-inline-end: 20px;
+  inset-block-start: 10px;
+
+  font-size: 96px;
+  line-height: 1;
+  color: $brown-darker;
+}
+
+.testimonials__photo {
+  grid-row: 1 / -1;
+
+  display: block;
+  inline-size: 130px;
+  
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: top;
+
+  background: #C4C4C4;
+  border-radius: 35px 0px;
+  box-shadow: 0 0 5px rgb(0 0 0 / 0.1);
+}
+
+.testimonials__name {
+  font-size: $fontSize-24;
+  color: $black-darker;
+}
+
+.testimonials__job {
+  font-size: $fontSize-16;
+  font-weight: 400;
+}
+
+.testimonials__text {
+  font-size: $fontSize-18;
+  line-height: 1.5;
+}
+
+
+@media (min-width: $xl) {
+  .testimonials__item {
+    flex: 0 0 calc((100% - 70px) / 2);
+  }
+}

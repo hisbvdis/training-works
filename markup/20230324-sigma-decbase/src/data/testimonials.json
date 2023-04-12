@@ -1,0 +1,338 @@
+[
+  {
+    "gender": "female",
+    "name": {
+      "title": "Ms",
+      "first": "Christy",
+      "last": "West"
+    },
+    "location": {
+      "street": {
+        "number": 9413,
+        "name": "Lakeview St"
+      },
+      "city": "Townsville",
+      "state": "Victoria",
+      "country": "Australia",
+      "postcode": 310,
+      "coordinates": {
+        "latitude": "-87.5528",
+        "longitude": "5.9895"
+      },
+      "timezone": {
+        "offset": "-4:00",
+        "description": "Atlantic Time (Canada), Caracas, La Paz"
+      }
+    },
+    "email": "christy.west@example.com",
+    "login": {
+      "uuid": "3fe4f6dc-8b88-4f85-82a7-7ef476b4c107",
+      "username": "lazyladybug927",
+      "password": "nong",
+      "salt": "QII7Iwsj",
+      "md5": "93fb5b68870780641a9e863a2e3c19c3",
+      "sha1": "77464ad45a4b3ded96460ab6d66c0302e7a818e6",
+      "sha256": "94ab20f07203b32bc96b7c5b389cf2816208cff87a455c60f718340f5d5106ea"
+    },
+    "dob": {
+      "date": "1998-01-25T02:32:13.906Z",
+      "age": 25
+    },
+    "registered": {
+      "date": "2007-12-12T19:04:29.526Z",
+      "age": 15
+    },
+    "phone": "03-7270-0451",
+    "cell": "0445-543-213",
+    "id": {
+      "name": "TFN",
+      "value": "365265122"
+    },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/women/47.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/women/47.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/women/47.jpg"
+    },
+    "nat": "AU"
+  },
+  {
+    "gender": "female",
+    "name": {
+      "title": "Mrs",
+      "first": "آنیتا",
+      "last": "احمدی"
+    },
+    "location": {
+      "street": {
+        "number": 1938,
+        "name": "آفریقا"
+      },
+      "city": "بروجرد",
+      "state": "گلستان",
+      "country": "Iran",
+      "postcode": 23851,
+      "coordinates": {
+        "latitude": "9.0155",
+        "longitude": "-140.1500"
+      },
+      "timezone": {
+        "offset": "-5:00",
+        "description": "Eastern Time (US & Canada), Bogota, Lima"
+      }
+    },
+    "email": "anyt.hmdy@example.com",
+    "login": {
+      "uuid": "68865415-5a83-4a91-8409-d0074303e28a",
+      "username": "orangecat455",
+      "password": "annika",
+      "salt": "IQ7bVWr4",
+      "md5": "e422deaf9f71167d6806d790fb50136f",
+      "sha1": "a35f1771ace4cea89118cb4d4348d2c8fd5dc3e8",
+      "sha256": "07f2bbf2d77a325137160ca0073798c9d0bb38220bf8075a99b503f49a2d1699"
+    },
+    "dob": {
+      "date": "1976-07-28T14:11:02.676Z",
+      "age": 46
+    },
+    "registered": {
+      "date": "2020-10-19T05:12:50.394Z",
+      "age": 2
+    },
+    "phone": "038-60371415",
+    "cell": "0940-033-4640",
+    "id": {
+      "name": "",
+      "value": null
+    },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/women/37.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/women/37.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/women/37.jpg"
+    },
+    "nat": "IR"
+  },
+  {
+    "gender": "male",
+    "name": {
+      "title": "Mr",
+      "first": "Rasmus",
+      "last": "Mortensen"
+    },
+    "location": {
+      "street": {
+        "number": 9908,
+        "name": "Bakkekammen"
+      },
+      "city": "København N",
+      "state": "Syddanmark",
+      "country": "Denmark",
+      "postcode": 56576,
+      "coordinates": {
+        "latitude": "79.8849",
+        "longitude": "-169.5452"
+      },
+      "timezone": {
+        "offset": "+5:30",
+        "description": "Bombay, Calcutta, Madras, New Delhi"
+      }
+    },
+    "email": "rasmus.mortensen@example.com",
+    "login": {
+      "uuid": "cc4e1826-8e65-4da0-8c37-18700556a714",
+      "username": "angryrabbit162",
+      "password": "lasvegas",
+      "salt": "wNFlOYx6",
+      "md5": "f1701e80e9d15f500085faead2ed2350",
+      "sha1": "923134d4918eb62529b68627886f471fe2a2aa3b",
+      "sha256": "f578458ae443ddbf0168aa0df17ecd70b7f6352b04fb42936598a97ea92783db"
+    },
+    "dob": {
+      "date": "1953-08-22T09:10:10.694Z",
+      "age": 69
+    },
+    "registered": {
+      "date": "2017-06-15T10:33:47.600Z",
+      "age": 5
+    },
+    "phone": "70455998",
+    "cell": "09477567",
+    "id": {
+      "name": "CPR",
+      "value": "220853-5866"
+    },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/men/80.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/men/80.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/men/80.jpg"
+    },
+    "nat": "DK"
+  },
+  {
+    "gender": "female",
+    "name": {
+      "title": "Ms",
+      "first": "Anika",
+      "last": "Anand"
+    },
+    "location": {
+      "street": {
+        "number": 705,
+        "name": "Swargate"
+      },
+      "city": "Sultan Pur Majra",
+      "state": "Tamil Nadu",
+      "country": "India",
+      "postcode": 11590,
+      "coordinates": {
+        "latitude": "-10.4713",
+        "longitude": "99.5569"
+      },
+      "timezone": {
+        "offset": "+5:45",
+        "description": "Kathmandu"
+      }
+    },
+    "email": "anika.anand@example.com",
+    "login": {
+      "uuid": "8bf06e85-a83a-4c6e-80c1-2ccc1798eed1",
+      "username": "bigfish669",
+      "password": "sparkle",
+      "salt": "3Ac6UMsr",
+      "md5": "bf351dd6275de0a17b3733e373f1f9be",
+      "sha1": "ce9d90f60215544849d8b922f401daff822559eb",
+      "sha256": "40078444fef7cc7b5689bc10e5edcef0035b3c2babd86c32e7209a2ebdbab8ec"
+    },
+    "dob": {
+      "date": "1955-12-01T02:42:06.965Z",
+      "age": 67
+    },
+    "registered": {
+      "date": "2018-06-29T07:07:34.126Z",
+      "age": 4
+    },
+    "phone": "9375479662",
+    "cell": "9200502392",
+    "id": {
+      "name": "UIDAI",
+      "value": "426396008114"
+    },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/women/16.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/women/16.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/women/16.jpg"
+    },
+    "nat": "IN"
+  },
+  {
+    "gender": "female",
+    "name": {
+      "title": "Ms",
+      "first": "Lily",
+      "last": "Watson"
+    },
+    "location": {
+      "street": {
+        "number": 4321,
+        "name": "Edwards Rd"
+      },
+      "city": "Roanoke",
+      "state": "Hawaii",
+      "country": "United States",
+      "postcode": 51947,
+      "coordinates": {
+        "latitude": "80.8410",
+        "longitude": "-13.8341"
+      },
+      "timezone": {
+        "offset": "-11:00",
+        "description": "Midway Island, Samoa"
+      }
+    },
+    "email": "lily.watson@example.com",
+    "login": {
+      "uuid": "cb89b8ea-a8c1-40fc-9eee-0d60eba44d24",
+      "username": "silvergorilla879",
+      "password": "doggie",
+      "salt": "HbM19DeY",
+      "md5": "44807903f1b9eb2ecc31e66679dd1403",
+      "sha1": "9f2f8daef4d95c62088903f291a8192c8686d6ee",
+      "sha256": "bc46624cf0d6630f4d998cd50abb2294c48f2740ed669be573324a779ffd7b31"
+    },
+    "dob": {
+      "date": "1976-11-28T08:12:14.151Z",
+      "age": 46
+    },
+    "registered": {
+      "date": "2003-12-08T19:00:29.224Z",
+      "age": 19
+    },
+    "phone": "(311) 501-1639",
+    "cell": "(316) 815-8808",
+    "id": {
+      "name": "SSN",
+      "value": "638-71-0379"
+    },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/women/83.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/women/83.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/women/83.jpg"
+    },
+    "nat": "US"
+  },
+  {
+    "gender": "male",
+    "name": {
+      "title": "Mr",
+      "first": "Philip",
+      "last": "Larsen"
+    },
+    "location": {
+      "street": {
+        "number": 8833,
+        "name": "Haveforeningen Kildegården"
+      },
+      "city": "Ølstykke",
+      "state": "Hovedstaden",
+      "country": "Denmark",
+      "postcode": 14603,
+      "coordinates": {
+        "latitude": "23.8239",
+        "longitude": "-108.5499"
+      },
+      "timezone": {
+        "offset": "-1:00",
+        "description": "Azores, Cape Verde Islands"
+      }
+    },
+    "email": "philip.larsen@example.com",
+    "login": {
+      "uuid": "c2e5b87b-f9a4-4c40-8903-5f373a5fa10d",
+      "username": "ticklishsnake567",
+      "password": "wwww",
+      "salt": "zeIh3TTW",
+      "md5": "8faf244877ea4106e2ca4ed4cf941250",
+      "sha1": "54bb627a70bc54535934804c8e53d002c451db6a",
+      "sha256": "9cc4c31e06b0843083965968516e3627ed01fa95d207cd7667b0f036921e2959"
+    },
+    "dob": {
+      "date": "1977-12-19T03:54:08.784Z",
+      "age": 45
+    },
+    "registered": {
+      "date": "2015-01-30T00:51:18.274Z",
+      "age": 8
+    },
+    "phone": "01853724",
+    "cell": "21597302",
+    "id": {
+      "name": "CPR",
+      "value": "181277-6162"
+    },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/men/65.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/men/65.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/men/65.jpg"
+    },
+    "nat": "DK"
+  }
+]

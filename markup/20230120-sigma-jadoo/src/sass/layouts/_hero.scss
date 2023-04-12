@@ -1,0 +1,84 @@
+.hero {
+  overflow: hidden;
+}
+
+.hero__container {
+  position: relative;
+
+  padding-block: fluid(20px, 80px) fluid(30px, 150px);
+}
+
+.hero__subHeading {
+  margin-block-end: fluid(10px, 24px);
+}
+
+.hero__heading {
+  margin-block-end: fluid(15px, 30px);
+}
+
+.hero__text {
+  margin-block-end: fluid(20px, 35px);
+}
+
+.hero__buttons {
+  display: flex;
+  align-items: center;
+  gap: fluid(10px, 44px);
+}
+
+.hero__contentLink {
+  display: inline-block;
+  padding: 1em 1.45em;
+  
+  font-family: "Google Sans";
+  font-size: fluid(12px, 18px);
+  line-height: 1.28;
+  font-weight: 500;
+  text-decoration: none;
+  color: #fff;
+
+  background-color: #F1A501;
+  border-radius: 10px;
+}
+
+.hero__plane {
+  position: absolute;
+
+  display: none;
+}
+
+
+@media (min-width: $sm) {
+  .hero__container {
+    background: url("../images/traveller.webp") 100% 50% / contain no-repeat;
+  }
+
+  .hero__info {
+    inline-size: 60%;
+  }
+
+  .hero__text {
+    max-inline-size: min(50vw, 500px);
+    margin-block-end: fluid(10px, 35px);
+  }
+}
+
+
+@media (min-width: $md) {
+  .hero__plane--1 {
+    inset-block-start: 10%;
+    inset-inline-start: 50%;
+
+    display: inline-block;
+  }
+}
+
+
+@media (min-width: $xl) {
+  .hero__plane--2 {
+    inset-block-start: 20%;
+    inset-inline-start: 90%;
+
+    display: inline-block;
+  }
+}

@@ -1,0 +1,33 @@
+@import "./style/base/variables.scss";
+
+.app {
+  display: grid;
+  max-inline-size: 1100px;
+  margin-inline: auto;
+  padding-inline: 15px;;
+  gap: 30px;
+}
+
+@media (min-width: $sm) {
+  .app {
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .app_header {
+    grid-column: 1 / -1;
+  }
+
+  .app__promo {
+    grid-column: 1 / -1;
+  }
+
+  .app__charInfo {
+    align-self: start;
+  }
+}
+
+@media (min-width: $xxl) {
+  .app {
+    padding-inline: 0;
+  }
+}

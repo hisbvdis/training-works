@@ -1,0 +1,70 @@
+@import "../../style/base/variables.scss";
+
+.charInfo {
+  padding: 15px;
+  
+  box-shadow: 0 0 5px rgb(0 0 0 / 0.2);
+}
+
+.charInfo__img {
+  inline-size: 100%;
+  
+  object-fit: cover;
+}
+
+.charInfo__name {
+  margin-block-end: 5px;
+  
+  line-height: 1.32;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.charInfo__desc {
+  margin-block-end: 15px;
+}
+
+.charInfo__links {
+  margin-block-end: 15px;
+}
+
+.charInfo__subTitle {
+  margin-block-end: 5px;
+  
+  font-weight: 600;
+}
+
+.charInfo__links {
+  display: flex;
+  gap: 15px;
+}
+
+.charInfo__comicLink {
+  display: block;
+  margin-block-end: 10px;
+  padding: 10px;
+  
+  box-shadow: 0 0 5px rgb(0 0 0 / 0.2);
+}
+
+
+@media (min-width: $sm) {
+  .charInfo__name {
+    font-size: 16rem;
+  }
+
+  .charInfo__subTitle {
+    font-size: 14rem;
+  }
+}
+
+
+@media (min-width: $xl) {
+  .charInfo__name {
+    font-size: 18rem;
+  }
+
+  .charInfo__subTitle {
+    font-size: 15rem;
+  }
+}

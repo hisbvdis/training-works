@@ -1,0 +1,33 @@
+@import "../../assets/styles/base/variables.scss";
+
+.hero__container {
+  padding-block: 40px 70px;
+  
+  background: 
+    linear-gradient(rgb(0 0 0 / 0.5), rgb(0 0 0 / 0.5)),
+    url("../../assets/img/hero-bg.jpg") center / cover no-repeat;
+}
+
+.hero__inner {
+  max-inline-size: 380px;
+  margin-inline: auto;
+}
+
+.hero__heading {
+  margin-block-end: 21px;
+  
+  color: $white;
+}
+
+.hero__desc {
+  margin-block-end: 32px;
+
+  color: $white;
+}
+
+
+@media (min-width: $tablet) {
+  .hero__inner {
+    padding-block: 50px;
+  }
+}

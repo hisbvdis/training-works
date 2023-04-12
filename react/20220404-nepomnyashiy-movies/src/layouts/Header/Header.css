@@ -1,0 +1,12 @@
+.header {
+  background-color: #EE6E73;
+}
+
+.header__logoLink {
+  display: inline-block;
+  padding-block: 10px;
+
+  font-size: 2em;
+  color: #fff;
+  text-decoration: none;
+}

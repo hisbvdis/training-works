@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/bundle.css">
+  <script src="./scripts/script.js" type="module"></script>
+  <title>Decbase</title>
+</head>
+<body>
+  <div class="page" data-page>
+    <header class="header" data-header>
+      <div class="container  header__container">
+        <div class="logo  header__logo">
+          <a class="logo__link" href="#">
+            <img class="logo__img" src="images/logo.webp" alt="Decbase Logo">
+          </a>
+        </div>
+        <button class="navBtn  header__navBtn" type="button" data-navBtn>
+          <span class="navBtn__line  navBtn__line--1"></span>
+          <span class="navBtn__line  navBtn__line--2"></span>
+          <span class="navBtn__line  navBtn__line--3"></span>
+          <span class="srOnly">Open menu</span>
+        </button>
+        <nav class="nav  header__nav  page__nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link" href="#">Home</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#project">Project</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#service">Service</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#about">About</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#blog">Blog</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#shop">Shop</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#footer">Contact</a>
+            </li>
+            <li class="nav__item  nav__item--button">
+              <a class="button  button--header" href="#signup">Sign Up</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="progressBar  header__progressBar" data-progressBar></div>
+    </header>
+
+    <main>
+      <h1 class="srOnly">DECBASE — Design studio</h1>
+
+      <section class="section" id="project">
+        <div class="container  split">
+          <h2 class="srOnly">Promo</h2>
+          <div class="split__block">
+            <p class="subHeading  section__subHeading">Modern Interior</p>
+            <p class="heading  heading--big  section__heading">Create Your Interior&nbsp;Design.</p>
+            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+            <a class="button  section__btn">Contact</a>
+          </div>
+          <div class="split__block">
+            <p class="split__imgWrapper">
+              <img class="split__img" src="images/section-1.webp" alt="Interior Design">
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section  services" id="service">
+        <div class="container">
+          <p class="subHeading  section__subHeading">What We Do</p>
+          <h2 class="heading  section__heading">Our Service</h2>
+          <div class="categories  services__categories">
+            <h3 class="srOnly">Service categories</h3>
+            <ul class="categories__list" data-categoriesList>
+              <template data-categoryTemplate>
+                <li class="categories__item">
+                  <input class="categories__input  srOnly" type="radio" name="categories" value="all" id="categories-all" data-input>
+                  <label class="categories__label" for="categories-all" data-label>All</label>
+                </li>
+              </template>
+            </ul>
+          </div>
+          <ul class="services__list" data-servicesList>
+            <template data-serviceTemplate>
+              <li class="services__item" data-item>
+                <span class="services__icon"></span>
+                <h4 class="services__title" data-title>Interior Design 1</h4>
+                <p class="services__desc" data-desc>Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.</p>
+              </li>
+            </template>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container  split  split--reverse">
+          <div class="split__block">
+            <h2 class="subHeading  section__subHeading">About us</h2>
+            <p class="heading  section__heading">Interioris The Will of An Epoch Mextreo</p>
+            <p class="text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form injected humour, or randomised words which don't look even slightly believable.If you are going to use a passage of Lorem Ipsum, sure there isn't anything embarrassing hidden the middleof text. All the Lorem Ipsum generators on the Internettend to repeat predefined chunks as necessary,making this the first true generator on the Internet.</p>
+            <a class="button  section__btn">Learn</a>
+          </div>
+          <div class="split__block">
+            <p class="split__imgWrapper">
+              <img class="split__img" src="images/section-2.webp" alt="Interior">
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section  age" id="shop">
+        <div class="container  split">
+          <h2 class="srOnly">Company's age</h2>
+          <div class="split__block">
+            <p class="heading  section__heading">
+              <span class="heading__bigFragment">20</span>
+              Years Of Successful Working The Market
+            </p>
+            <a class="button  section__btn">Learn</a>
+          </div>
+          <div class="split__block">
+            <p class="split__imgWrapper">
+              <img class="split__img" src="images/section-3.webp" alt="Interior">
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section  section--gray  stats">
+        <div class="container  stats__container">
+          <h2 class="srOnly">Completed works</h2>
+          <p class="heading  stats__heading">3000+ Completed Work<br>Which WE have Successfully Done</p>
+          <ul class="stats__list" data-statsList>
+            <li class="stats__item">
+              <p class="stats__number">980</p>
+              <p class="stats__desc">Projects</p>
+            </li>
+            <li class="stats__item">
+              <p class="stats__number">520</p>
+              <p class="stats__desc">Happy Clients</p>
+            </li>
+            <li class="stats__item">
+              <p class="stats__number">330</p>
+              <p class="stats__desc">Winners</p>
+            </li>
+            <li class="stats__item">
+              <p class="stats__number">120</p>
+              <p class="stats__desc">Recoment</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section  testimonials">
+        <div class="container">
+          <h2 class="subHeading">Testimonials</h2>
+          <p class="heading  testimonials__heading">Client says about us</p>
+          <ul class="testimonials__buttons">
+            <li>
+              <button class="testimonials__btn  testimonials__btn--prev" data-prevBtn>
+                <svg class="testimonials__btnIcon">
+                  <use href="./images/sprite.svg#prev"></use>
+                </svg>
+                <span class="srOnly">Previous</span>
+              </button>
+            </li>
+            <li>
+              <button class="testimonials__btn  testimonials__btn--next" data-nextBtn>
+                <svg class="testimonials__btnIcon">
+                  <use href="./images/sprite.svg#next"></use>
+                </svg>
+                <span class="srOnly">Next</span>
+              </button>
+            </li>
+          </ul>
+          <ul class="testimonials__list" data-testimonialsList>
+            <template data-testimonialsTemplate>
+              <li class="testimonials__item">
+                <img class="testimonials__photo" src="./images/testimonials-photo.webp" alt="Name" data-photo>
+                <h3 class="testimonials__bio">
+                  <span class="testimonials__name" data-name>Louis Saville 1</span>
+                  <span class="testimonials__job" data-job>/ CEO at Google inc</span>
+                </h3>
+                <p class="testimonials__text" data-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </li>
+            </template>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section  section--gray  news" id="blog">
+        <div class="container">
+          <h2 class="subHeading  news__subHeading">Latest news</h2>
+          <p class="heading  news__heading">From Our Blog</p>
+          <div class="split  news__split">
+            <div class="split__block  news__animatable" data-animatable1>
+              <p class="split__imgWrapper  news__imgWrapper">
+                <img class="split__img  news__img" src="images/news-1.webp" alt="Interior">
+              </p>
+              <h3 class="news__title">2020 Interior Design Trends</h3>
+              <p class="news__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod incididunt ut labore et dolore magna aliqua.</p>
+              <button class="button">CONTINUE READING....</button>
+            </div>
+            <div class="split__block  news__animatable" data-animatable2>
+              <p class="split__imgWrapper  news__imgWrapper">
+                <img class="split__img  news__img" src="images/news-2.webp" alt="Interior">
+              </p>
+              <h3 class="news__title">28 Notable Product at ARC Interior Design</h3>
+              <p class="news__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod incididunt ut labore et dolore magna aliqua.</p>
+              <button class="button">CONTINUE READING....</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section  sign" id="signup">
+        <div class="container  sign__container">
+          <h2 class="srOnly">Sing up</h2>
+          <p class="heading  heading--center  sign__heading">DON’T FORGET TO SIGN UP</p>
+          <p class="sign__desc">Find out early about all upcoming promotions and new product releases with our newsletter.</p>
+          <form class="sign__form" data-form>
+            <div class="field  sign__field">
+              <label class="field__label  srOnly" for="sign-name">Name</label>
+              <input class="field__input" id="sign-name" type="text" name="name" placeholder="Enter your name.....">
+              <p class="field__error"></p>
+            </div>
+            <div class="field  sign__field">
+              <label class="field__label  srOnly" for="sign-surname">Surname</label>
+              <input class="field__input" id="sign-surname" type="text" name="surname" placeholder="Enter your surname.....">
+              <p class="field__error"></p>
+            </div>
+            <div class="field  sign__field  sign__field--email">
+              <label class="field__label  srOnly" for="sign-email">Email</label>
+              <input class="field__input" id="sign-email" type="text" name="email" placeholder="Enter your e-mail.....">
+              <p class="field__error"></p>
+            </div>
+            <button class="button  sign__submitBtn" type="submit">Subscribe</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="section  weather">
+        <div class="container">
+          <h2 class="heading  weather__heading">Weather API</h2>
+          <form class="weather__form" data-weatherForm>
+            <div class="field">
+              <label class="field__label  srOnly" for="weather-query">Email</label>
+              <input class="field__input" id="weather-query" type="text" name="query" placeholder="Enter name of City">
+              <p class="field__error"></p>
+            </div>
+            <p class="weather__result" data-weatherResult></p>
+            <button class="button  sign__submitBtn" type="submit">Request</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer  section  section--gray" id="footer">
+      <div class="container  footer__container">
+        <div class="footer__column  footer__column--logo">
+          <div class="logo  footer__logo">
+            <a class="logo__link" href="#">
+              <img class="logo__img" src="images/logo.webp" alt="Decbase Logo">
+            </a>
+          </div>
+          <p>But i must explain to you all this mistaken idea of dencouncing pleasure.</p>
+        </div>
+        <div class="footer__column">
+          <h2 class="heading  footer__heading">Quick Links</h2>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a class="footer__link" href="#">About Our Company</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">Services WE provide</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">Career & Opportunity</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">Privacy & policy</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">Contact US</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__column">
+          <h2 class="heading  footer__heading">Company</h2>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a class="footer__link" href="#">About Company</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">Our Testimonials</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">Latest News</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">Our misson</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">Get a free Quot</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__column">
+          <h2 class="heading  footer__heading">Contact us</h2>
+          <ul class="footer__list">
+            <li class="footer__item">Sagrada Familia, Herba</li>
+            <li class="footer__item">Street Front USA</li>
+            <li class="footer__item">
+              <a class="footer__link" href="mailto:brandoxide@gmail.com">brandoxide@gmail.com</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="tel:002568423591">002-568423591</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__column  social">
+          <h2 class="heading  footer__heading">Follow us</h2>
+          <ul class="social__list">
+            <li class="social__item">
+              <a class="social__link" href="https://www.facebook.com/">
+                <span class="social__icon  social__icon--fb"></span>
+                <span class="srOnly">Facebook</span>
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link" href="https://twitter.com/">
+                <span class="social__icon  social__icon--tw"></span>
+                <span class="srOnly">Twitter</span>
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link" href="https://www.instagram.com/">
+                <span class="social__icon  social__icon--inst"></span>
+                <span class="srOnly">Instagram</span>
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link" href="https://www.linkedin.com/">
+                <span class="social__icon  social__icon--in"></span>
+                <span class="srOnly">LinkedIn</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer__copyright">Copyright @ <span data-footerYear>2020</span> Brandoxide.all right reserved.</p>
+    </footer>
+  </div>
+  <div class="greeting" data-greeting></div>
+  <div class="preloader" data-preloader>
+    <div class="preloader__spinner">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+</body>
+</html>

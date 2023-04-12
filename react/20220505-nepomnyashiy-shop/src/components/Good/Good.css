@@ -1,0 +1,42 @@
+.good {
+  display: flex;
+  flex-direction: column;
+  
+  box-shadow: 0 0 5px rgb(0 0 0 / 0.2);
+}
+
+.good__img {
+  display: block;
+  inline-size: 100%;
+  
+  background: #eee;
+  object-fit: cover;
+}
+
+.good__content {
+  padding: 15px;
+}
+
+.good__content--info {
+  flex: 1 0 auto;
+}
+
+.good__content--buy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-block-start: 1px solid #eee;
+}
+
+.good__name {
+  margin-block: 0 10px;
+}
+
+.good__desc {
+  margin-block: 0 10px;
+}
+
+.good__price {
+  margin-block: 0;
+}

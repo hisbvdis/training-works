@@ -1,0 +1,14 @@
+.subHeading {
+  font-size: fluid(13px, 18px);
+  line-height: 1.5;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.subHeading--hero {
+  font-size: fluid(13px, 20px);
+  color: $red;
+  text-align: start;
+  font-weight: 700;
+}

@@ -1,0 +1,41 @@
+/* OPEN SANS */
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 300 800;
+  font-stretch: 75% 100%;
+  font-display: swap;
+  src:
+    url("../fonts/opensans-variable-font-wdth-wght.woff2") format("woff2 supports variations"),
+    url("../fonts/opensans-variable-font-wdth-wght.woff2") format("woff2-variations");
+}
+
+
+
+/* POPPINS */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../fonts/Poppins-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../fonts/Poppins-Medium.woff2") format("woff2");
+}
+
+
+
+/* RALEWAY */
+@font-face {
+  font-family: "Raleway";
+  font-weight: 500;
+  font-display: swap;
+  src:
+    url("../fonts/Raleway-Medium.woff2") format("woff2 supports variations"),
+    url("../fonts/Raleway-Medium.woff2") format("woff2-variations");
+}

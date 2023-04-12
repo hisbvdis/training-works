@@ -1,0 +1,42 @@
+.footer {
+  color: #fff;
+  
+  background-color: var(--color-primary-darker);
+}
+
+.footer__container {
+  display: grid;
+  gap: 30px;
+  padding: 50px 40px;
+}
+
+.footer__logo {
+  font-family: "Avenir", sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+}
+
+
+@media (min-width: 768px) {
+  .footer__container {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto;
+    align-items: end;
+    padding: 90px 40px;
+  }
+
+  .footer__logo {
+    text-align: start;
+  }
+
+  .footer__socials {
+    grid-row: 1/-1;
+    grid-column: 2;
+  }
+
+  .footer__apps {
+    grid-row: 1/-1;
+    grid-column: 3;
+  }
+}

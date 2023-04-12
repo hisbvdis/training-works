@@ -1,0 +1,189 @@
+.trip {
+  position: relative;
+  
+  display: inline-block;
+  padding: 20px 25px;
+
+  color: #84829A;
+
+  background-color: #fff;
+  box-shadow: $card-shadow;
+  border-radius: 26px;
+}
+
+.trip__img {
+  margin-block-end: 25px;
+  
+  border: 1px solid #000;
+  border-radius: 24px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.trip__title {
+  margin-block-end: 10px;
+  
+  font-size: 18px;
+  line-height: 1.25;
+  font-weight: 500;
+  color: #080809;
+}
+
+.trip__desc {
+  margin-block-end: 20px;
+}
+
+.trip__info {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  inline-size: 36px;
+  block-size: 36px;
+  margin-block-end: 30px;
+
+  background: #F5F5F5;
+  border: none;
+  border-radius: 50%;
+}
+
+.trip__info + .trip__info {
+  margin-inline-start: 15px;
+}
+
+.trip__info::before {
+  content: "";
+  inline-size: 14px;
+  block-size: 14px;
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.trip__info--leaf::before {
+  background-image: url("../images/steps-icon-leaf.svg");
+}
+
+.trip__info--map::before {
+  background-image: url("../images/steps-icon-map.svg");
+}
+
+.trip__info--send::before {
+  background-image: url("../images/steps-icon-send.svg");
+}
+
+.trip__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trip__going {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.trip__favBtn {
+  inline-size: 20px;
+  block-size: 19px;
+  
+  background: url("../images/trip-fav.svg") center / cover no-repeat;
+  border: none;
+}
+
+.trip__going::before {
+  content: "";
+  display: block;
+  inline-size: 16px;
+  block-size: 16px;
+
+  background: url("../images/steps-icon-building.svg") center / cover no-repeat;
+}
+
+.trip__subCard {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: repeat(4, auto);
+  column-gap: 15px;
+  padding: 25px;
+
+  color: #080809;
+
+  background-color: #fff;
+  border-radius: 18px;
+  box-shadow: $card-shadow;
+}
+
+.trip__subImg {
+  grid-row: 1 / -1;
+  display: block;
+  inline-size: 50px;
+  block-size: 50px;
+  
+  border-radius: 50%;
+}
+
+.trip__subStatus {
+  margin-block-end: 5px;
+  
+  font-size: 14px;
+  line-height: 1.25;
+  font-weight: 500;
+  color: #84829A;
+  letter-spacing: -3.5%;
+}
+
+.trip__subTitle {
+  margin-block-end: 15px;
+
+  font-size: 18px;
+  line-height: 1.25;
+  font-weight: 500;
+  letter-spacing: -1.5%;
+}
+
+.trip__subCompletness {
+  margin-block-end: 10px;
+
+  font-size: 14px;
+  line-height: 1.25;
+  font-weight: 500;
+  letter-spacing: -5.5%;
+}
+
+.trip__subPercent {
+  color: #8A79DF;
+}
+
+.trip__subScale {
+  inline-size: 156px;
+  block-size: 5px;
+  background:
+    linear-gradient(to right, #8A79DF, #8A79DF 40%, transparent 40%),
+    #F5F5F5;
+  border-radius: 30px;
+}
+
+
+@media (min-width: $lg) {
+  .trip::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    translate: 5% -5%;
+  
+    display: block;
+    inline-size: 350px;
+    block-size: 350px;
+  
+    background-color: #59B1E675;
+    border-radius: 50%;
+    filter: blur(75px);
+  }
+  
+  .trip__subCard {
+    position: absolute;
+    inset-block-end: 50px;
+    inset-inline-end: -100px;
+  }
+}

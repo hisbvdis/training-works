@@ -1,0 +1,30 @@
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  
+  font-family: "Open Sans", sans-serif;
+  font-size: $fontSize-18;
+  font-weight: 600;
+  color: $white;
+  text-transform: uppercase;
+  text-decoration: none;
+  
+  background-color: $green;
+  border-radius: 15px 0px;
+  border: none;
+
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: $green-darker;
+}
+
+.button--header {
+  background-color: $brown;
+  text-transform: none;
+}
+
+.button--header:hover {
+  background-color: $brown-darker;
+}

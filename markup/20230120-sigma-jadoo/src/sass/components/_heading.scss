@@ -1,0 +1,16 @@
+.heading {
+  font-family: "Volkhov", serif;
+  font-size: fluid(25px, 50px);
+  line-height: 1.28;
+  color: #14183E;
+  text-align: center;
+  text-transform: capitalize;  
+}
+
+.heading--hero {
+  font-size: fluid(30px, 84px);
+  line-height: 1.05;
+  color: #181E4B;
+  text-align: start;
+  text-transform: none;
+}

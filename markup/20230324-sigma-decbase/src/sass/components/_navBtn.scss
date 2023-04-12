@@ -1,0 +1,58 @@
+:where(.navBtn) {
+  /* Кнпка также может быть "position: absolute" */
+  position: relative;
+
+  /* Кнопка может скрываться с помощью "display: none" */
+  display: block;
+}
+
+.navBtn {
+  inline-size: 26px;
+  block-size: 19px;
+  margin: 0;
+  padding: 0;
+  
+  background: none;
+  border: none;
+}
+
+.navBtn__line {
+  position: absolute;
+
+  display: block;
+  inline-size: 100%;
+  block-size: 3px;
+
+  background: #000;
+  transition: 0.25s;
+}
+
+.navBtn__line--1 {
+  inset-block-start: 0;
+}
+
+.navBtn__line--2 {
+  inset-block-start: 50%;
+  translate: 0 -50%;
+}
+
+.navBtn__line--3 {
+  inset-block-end: 0;
+}
+
+/* navOpened */
+.navBtn--opened .navBtn__line--1 {
+  inset-block-start: 50%;
+  translate: 0 -50%;
+  rotate: 45deg;
+}
+
+.navBtn--opened .navBtn__line--2 {
+  opacity: 0;
+}
+
+.navBtn--opened .navBtn__line--3 {
+  inset-block-end: 50%;
+  translate: 0 50%;
+  rotate: -45deg;
+}

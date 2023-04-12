@@ -1,0 +1,17 @@
+@import "../base/variables.scss";
+
+.main {
+  display: grid;
+  gap: 30px;
+}
+
+@media (min-width: $md) {
+  .main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .main__promo {
+    grid-column: 1 / -1;
+  }
+}

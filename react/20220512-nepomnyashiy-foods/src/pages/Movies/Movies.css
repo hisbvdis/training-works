@@ -1,0 +1,35 @@
+.movies__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+  
+  list-style: none;
+}
+
+.movies__item {
+  position: relative;
+
+  box-shadow: 0 0 2px rgb(0 0 0 / 0.8);
+}
+
+.movies__img {
+  display: block;
+  inline-size: 100%;
+  aspect-ratio: 1 / 1.2;
+  object-fit: cover;
+}
+
+.movies__title {
+  display: inline-block;
+  padding: 10px;
+
+  text-decoration: none;
+}
+
+.movies__title::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+}

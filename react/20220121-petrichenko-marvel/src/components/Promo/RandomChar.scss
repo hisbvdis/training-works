@@ -1,0 +1,94 @@
+@import "../../style/base/variables.scss";
+
+.randomChar {
+  flex: 1 1 0;
+  border: 1px solid #000;
+}
+
+.randomChar__img {
+  display: block;
+  inline-size: 100%;
+  block-size: auto;
+  max-block-size: 180px;
+
+  object-fit: cover;
+}
+
+.randomChar__info {
+  padding: 15px;
+}
+
+.randomChar__name {
+  margin-block-end: 5px;
+  
+  line-height: 1.32;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.randomChar__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.randomChar__desc {
+  margin-block-end: 10px;
+}
+
+.randomChar__link + .randomChar__link {
+  margin-inline-start: 10px;
+}
+
+@media (min-width: $sm) {
+  .randomChar {
+    border: none;
+  }
+
+  .randomChar__name {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: $md) {
+  .randomChar {
+    display: flex;
+    gap: 15px;
+    padding: 15px;
+  }
+
+  .randomChar__info {
+    padding: 0;
+  }
+
+  .randomChar__img {
+    inline-size: 180px;
+    block-size: 180px;
+  }
+
+  .randomChar__desc {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    
+    overflow-y: hidden;
+  }
+
+  .randomChar__img {
+    margin-block-end: 0;
+  }
+
+  .randomChar__links {
+    margin-block-start: auto;
+  }
+}
+
+@media (min-width: $xl) {
+  .randomChar {
+    gap: 30px;
+    padding: 40px 35px;
+  }
+
+  .randomChar__name {
+    font-size: 22rem;
+  }
+}

@@ -1,0 +1,33 @@
+@import "../../assets/styles/base/variables.scss";
+
+.user {
+  padding: 20px;
+  
+  background-color: $white;
+  border-radius: 10px;
+}
+
+.user__photo {
+  display: block;
+  margin-inline: auto;
+  margin-block-end: 20px;
+
+  border-radius: 50%;
+}
+
+.user__field {
+  margin-block: 0;
+  
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.user__field--name {
+  margin-block-end: 20px;
+}
+
+.user__fieldLink {
+  color: inherit;
+  text-decoration: inherit;
+}

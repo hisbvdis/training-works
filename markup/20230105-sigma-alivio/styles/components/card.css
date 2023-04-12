@@ -1,0 +1,96 @@
+.card {
+  padding: 10px;
+
+  text-align: center;
+
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 4px 18px rgb(0 0 0 / 0.25);
+}
+
+.card__topping {
+  position: relative;
+  
+  display: inline-block;
+  padding-block-end: 5px;
+  margin-block-end: 5px;
+  
+  font-size: 15px;
+}
+
+.card__topping::before {
+  content: "";
+  position: absolute;
+  inset-block-end: 0;
+  inset-inline-start: 50%;
+  translate: -50%;
+
+  inline-size: calc(100% + 10px);
+  block-size: 1px;
+
+  background-color: #000;
+}
+
+.card__photo {
+  display: block;
+  inline-size: 57px;
+  block-size: 57px;
+  margin-inline: auto;
+  margin-block-end: 5px;
+
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.card__name {
+  margin-block-end: 5px;
+
+  font-size: 12px;
+}
+
+.card__listName {
+  margin-block-end: 5px;
+  
+  font-family: "Georgia", serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.card__list {
+  margin-inline: auto;
+  padding-inline-start: 1.5em;
+
+  font-size: 12px;
+  text-align: left;
+}
+
+.card__listItem + .card__listItem {
+  margin-block-start: 5px;
+}
+
+
+@media (min-width: 1500px) {
+  .card {
+    padding: 20px 50px 30px;
+  }
+  
+  .card__topping {
+    margin-block-end: 15px;
+  }
+  
+  .card__photo {
+    margin-block-end: 15px;
+  }
+  
+  .card__name {
+    margin-block-end: 15px;
+  }
+  
+  .card__listName {
+    margin-block-end: 15px;
+  }
+  
+  .card__listItem + .card__listItem {
+    margin-block-start: 15px;
+  }
+}

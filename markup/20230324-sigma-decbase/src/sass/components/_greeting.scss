@@ -1,0 +1,18 @@
+.greeting {
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+
+  display: none;
+  justify-content: center;
+  align-items: center;
+
+  font-size: $fontSize-30;
+  color: $black-darker;
+
+  background-color: $white;
+}
+
+.greeting--show {
+  display: flex;
+}

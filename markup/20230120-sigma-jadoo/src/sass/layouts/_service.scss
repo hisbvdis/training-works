@@ -1,0 +1,101 @@
+.service__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 35px;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.service__item {
+  position: relative;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+
+  background-color: #fff;
+  border-radius: 36px;
+}
+
+.service__item:hover {
+  box-shadow: $card-shadow;
+}
+
+.service__item:hover::before {
+  content: "";
+  position: absolute;
+  inset-inline-start: -35px;
+  inset-block-end: -33px;
+  z-index: -1;
+
+  inline-size: 100px;
+  block-size: 100px;
+
+  background-color: $red;
+  border-radius: 30px 0 10px 0;
+}
+
+.service__icon {
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.service__icon--weather {
+  inline-size: 92px;
+  block-size: 78px;
+
+  background-image: url("../images/service-1.svg");
+}
+
+.service__icon--plane {
+  inline-size: 112px;
+  block-size: 79px;
+
+  background-image: url("../images/service-2.svg");
+}
+
+.service__icon--event {
+  inline-size: 67px;
+  block-size: 75px;
+
+  background-image: url("../images/service-3.svg");
+}
+
+.service__icon--custom {
+  inline-size: 77px;
+  block-size: 66px;
+
+  background-image: url("../images/service-4.svg");
+}
+
+.service__title {
+  margin-block-end: 15px;
+  
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  color: #1E1D4C;
+}
+
+.service__desc {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.625;
+  text-align: center;
+  max-inline-size: 181px;
+}
+
+
+@media (min-width: $lg) {
+  .service {
+    background: url("../images/service-decor.svg") 90% 0 no-repeat;
+  }
+  
+  .service__heading {
+    margin-block-end: 30px;
+  }
+}

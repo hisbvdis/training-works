@@ -1,0 +1,16 @@
+.cartBtn {
+  display: flex;
+  align-items: flex-end;
+}
+
+.cartBtn__icon {
+  display: block;
+  inline-size: 35px;
+  block-size: 35px;
+
+  background: url("../../assets/img/cart.svg") center / contain no-repeat;
+}
+
+.cartBtn__count {
+  font-size: 1.2em;
+}

@@ -1,0 +1,31 @@
+.search {
+  margin-block-end: 20px;
+}
+
+.searchField {
+  display: flex;
+}
+
+.searchField__input {
+  flex-grow: 1;
+  padding: 10px;
+
+  border: 1px solid black;
+}
+
+.searchField__input:hover {
+  background: #fafafa;
+}
+
+.searchField__input:focus {
+  background: #fafafa;
+}
+
+.searchFilters {
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 10px 0;
+  
+  border: none;
+}

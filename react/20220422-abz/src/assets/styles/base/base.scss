@@ -1,0 +1,20 @@
+@import "./variables.scss";
+
+/* Box-sizing */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+
+  font-family: "Nunito", sans-serif;
+  font-size: $fontSize;
+  line-height: $lineHeight;
+  font-weight: 400;
+  color: $black;
+  text-align: center;
+
+  background-color: $bgColor;
+  overflow-y: scroll;
+}

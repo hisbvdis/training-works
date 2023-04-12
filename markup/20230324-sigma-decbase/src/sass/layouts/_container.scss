@@ -1,0 +1,12 @@
+.container {
+  inline-size: 100%;
+  max-inline-size: $container;
+  margin-inline: auto;
+  padding-inline: 20px;
+}
+
+@media (min-width: calc($container + 40px)) {
+  .container {
+    padding-inline: 0;
+  }
+}
