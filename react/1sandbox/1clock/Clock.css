@@ -1,0 +1,38 @@
+.circle {
+  position: relative;
+
+  inline-size: 200px;
+  block-size: 200px;
+
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.hand {
+  position: absolute;
+  inset-block-start: 50%;
+  inset-inline-start: 50%;
+
+  transform-origin: top left;
+}
+
+.secondHand {
+  inline-size: 40%;
+  block-size: 2px;
+
+  background-color: red;
+}
+
+.minuteHand {
+  inline-size: 40%;
+  block-size: 3px;
+
+  background-color: lightgreen;
+}
+
+.hourHand {
+  inline-size: 20%;
+  block-size: 7px;
+
+  background-color: blue;
+}
