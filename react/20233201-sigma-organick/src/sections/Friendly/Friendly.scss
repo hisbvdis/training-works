@@ -1,0 +1,36 @@
+@import "../../assets/styles/base/_variables.scss";
+
+.friendly {
+  position: relative;
+  z-index: 0;
+}
+
+.friendly::before {
+  content: "";
+  position: absolute;
+  inset-block-start: 0;
+  inset-inline-start: 0;
+  z-index: -1;
+
+  inline-size: 50%;
+  block-size: 100%;
+
+  background: url("./assets/friendly-bg.webp") center / cover no-repeat;
+}
+
+.friendly__container {
+  padding: fluid(20px, 80px);
+
+  background-color: $color-white;
+}
+
+@media (min-width: $md) {
+  .friendly {
+    padding-block: fluid(50px, 100px, $md);
+    padding-inline-start: 40vw;
+  }
+
+  .friendly__container {
+    border-radius: 30px;
+  }
+}

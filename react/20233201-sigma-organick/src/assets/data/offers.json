@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "name": "Mung Bean",
+    "category": "Vegetable",
+    "rating": 5,
+    "price": {
+      "current": "$11.00",
+      "old": "$20.00"
+    },
+    "image": "mung-bean.webp"
+  },
+  {
+    "id": 2,
+    "name": "Brown Hazelnut",
+    "category": "Vegetable",
+    "rating": 5,
+    "price": {
+      "current": "$12.00",
+      "old": "$20.00"
+    },
+    "image": "brown-hazelnut.webp"
+  },
+  {
+    "id": 3,
+    "name": "Onion",
+    "category": "Vegetable",
+    "rating": 5,
+    "price": {
+      "current": "$17.00",
+      "old": "$20.00"
+    },
+    "image": "onion.webp"
+  },
+  {
+    "id": 4,
+    "name": "Cabbage",
+    "category": "Vegetable",
+    "rating": 5,
+    "price": {
+      "current": "$17.00",
+      "old": "$20.00"
+    },
+    "image": "cabbage.webp"
+  }
+]

@@ -1,0 +1,76 @@
+@import "../../assets/styles/base/_variables.scss";
+
+.search {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  background-color: $color-gray-light;
+  border-radius: 36px;
+}
+
+.search:focus-within {
+  border: 1px solid #E0E0E0;
+}
+
+.search__input {
+  display: none;
+
+  font: inherit;
+  
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+// Remove "cross" icon
+.search__input::-webkit-search-cancel-button,
+.search__input::-webkit-search-decoration,
+.search__input::-webkit-search-results-button,
+.search__input::-webkit-search-results-decoration {
+  -webkit-appearance:none;
+}
+
+.search__btn {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  inline-size: fluid(35px, 56px); /* 56px */
+  block-size: fluid(35px, 56px); /* 56px */
+  padding: 0;
+
+  color: $color-white;
+  font: inherit;
+  
+  background-color: $color-green-regular;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.search__btn:hover {
+  background-color: $color-green-dark;
+}
+
+.search__btn:active {
+  background-color: $color-green-darker;
+}
+
+.search__icon {
+  inline-size: 37.5%; /* 21px */
+  block-size: 37.5%; /* 21px */
+}
+
+
+@media (min-width: $xl) {
+  .search {
+    padding: 5px;
+  }
+  
+  .search__input {
+    display: block;
+    inline-size: 100%;
+    padding: fluid(10px, 17px);
+  }
+}

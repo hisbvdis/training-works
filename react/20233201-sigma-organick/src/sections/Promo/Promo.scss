@@ -1,0 +1,42 @@
+@import "../../assets/styles/base/_variables.scss";
+@import "../../assets/styles/utilities/_fluid.scss";
+
+.promo__list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.promo__item {
+  display: flex;
+  flex-direction: column;
+  padding: fluid(50px, 100px) fluid(25px, 50px); /* 100px 50px */
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+}
+
+.promo__item--1 {
+  background-image: url("./assets/promo-1.webp");
+}
+
+.promo__item--2 {
+  background-image: url("./assets/promo-2.webp");
+}
+
+
+@media (min-width: $md) {
+  .promo__list {
+    flex-direction: row;
+  }
+
+  .promo__item {
+    flex-basis: calc((100% - 30px) / 2);
+  }
+}

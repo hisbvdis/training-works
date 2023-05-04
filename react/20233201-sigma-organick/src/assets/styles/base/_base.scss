@@ -1,0 +1,12 @@
+body {
+  min-inline-size: 320px;
+  margin: 0;
+  
+  font-family: $fontFamily-openSans;
+  font-size: $fontSize-fluid-18;
+  line-height: $lineHeight-115;
+  font-weight: 400;
+  color: $color-main-regular;
+  
+  overflow-y: scroll;
+}

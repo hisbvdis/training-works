@@ -1,0 +1,14 @@
+@import "../../assets/styles/base/_variables.scss";
+
+.paragraph {
+  margin-block: 0;
+  
+  font-family: $fontFamily-openSans;
+  font-size: $fontSize-fluid-18;
+  line-height: $lineHeight-165;
+  color: $color-gray-darkest;
+}
+
+.paragraph--small {
+  font-size: $fontSize-fluid-15;
+}

@@ -1,0 +1,12 @@
+@import "../../assets/styles/base/_variables.scss";
+
+.container {
+  inline-size: 100%;
+  max-inline-size: $container;
+  margin-inline: auto;
+  padding: fluid(50px, 150px) 20px; /* 150px 20px */
+}
+
+.container--big {
+  max-inline-size: $container-big;
+}

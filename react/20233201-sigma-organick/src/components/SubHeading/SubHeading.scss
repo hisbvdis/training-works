@@ -1,0 +1,15 @@
+@import "../../assets/styles/base/_variables.scss";
+
+.subHeading {
+  margin-block: 0;
+  
+  font-family: $fontFamily-yellowtail;
+  font-size: fluid(24px, 36px);
+  line-height: $lineHeight-115;
+  font-weight: 400;
+  color: $color-green-regular;
+}
+
+.subHeading--white {
+  color: $color-white;
+}

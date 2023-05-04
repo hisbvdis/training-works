@@ -1,0 +1,58 @@
+@import "../../assets/styles/base/_variables.scss";
+@import "../../assets/styles/utilities/_fluid.scss";
+
+
+.textField__label {
+  display: inline-block;
+  margin-block-end: fluid(5px, 15px);
+  
+  font-weight: 600;
+}
+
+.textField__label--srOnly {
+  position: absolute;
+
+  width: 0;
+  height: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(50%);
+  overflow: hidden;
+}
+
+.textField__input {
+  display: block;
+  inline-size: 100%;
+  padding: 1.45em; /* 28px */
+  
+  font: inherit;
+  line-height: 1;
+  text-align: inherit;
+  
+  border: none;
+  border-radius: 16px;
+  outline: none;
+}
+
+:where(.textField--border) .textField__input {
+  border: 2px solid $color-main-regular;
+}
+
+.textField__input--invalid {
+  border-color: red;
+}
+
+.textField__input::placeholder {
+  color: #ABABAB;
+  font-style: italic;
+}
+
+.textField__errorMsg {
+  display: block;
+  // block-size: 1em;
+  // margin-block-start: 5px;
+  
+  font-size: 0.8em;
+  color: red;
+}

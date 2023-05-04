@@ -1,0 +1,73 @@
+@import "../../assets/styles/base/_variables.scss";
+
+.buttonLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-inline-size: 11em; /* 220px */
+  padding: 1.45em 2em; /* 29px 40px */
+  gap: 10px;
+
+  font-family: $fontFamily-roboto;
+  font-size: fluid(12px, 20px); /* 20px */
+  line-height: 1;
+  font-weight: 700;
+  color: $color-white;
+  text-decoration: none;
+
+  background-color: $color-main-regular;
+  border: 1px solid transparent;
+  border-radius: 0.8em; /* 16px */
+  cursor: pointer;
+}
+
+.buttonLink:hover {
+  background-color: $color-main-dark;
+}
+
+.buttonLink:active {
+  background-color: $color-main-darker;
+}
+
+.buttonLink--yellow {
+  color: $color-main-regular;
+  
+  background-color: $color-yellow-regular;
+}
+
+.buttonLink--yellow:hover {
+  background-color: $color-yellow-dark;
+}
+
+.buttonLink--yellow:active {
+  background-color: $color-yellow-darker;
+}
+
+.buttonLink--white {
+  color: $color-main-regular;
+  
+  background-color: $color-white;
+  border-color: $color-main-regular;
+}
+
+.buttonLink--white:hover {
+  background-color: $color-gray-regular;
+}
+
+.buttonLink--white:active {
+  background-color: $color-gray-dark;
+}
+
+.buttonLink--small {
+  min-inline-size: unset;
+  padding: 0.7em 1em; /* 29px 40px */
+}
+
+.buttonLink__icon {
+  inline-size: 19px;
+  block-size: 19px;
+}
+
+.buttonLink--withoutIcon .buttonLink__icon {
+  display: none;
+}

@@ -1,0 +1,54 @@
+@import "../utilities/_fluid.scss";
+
+// CONTAINERS
+$container: 1400px;
+$container-big: 1600px;
+
+// SCREEN MEDIA BREAKPOINTS
+$xl: 1150px;
+$lg: 992px;
+$md: 768px;
+$sm: 576px;
+$sm-max: $md - 1px;
+
+
+// FONT FAMILY
+$fontFamily-roboto: "Roboto", sans-serif;
+$fontFamily-openSans: "Open Sans", sans-serif;
+$fontFamily-yellowtail: "Yellowtail", sans-serif;
+
+
+// FONT SIZE
+$fontSize-fluid-15: fluid(12px, 15px);
+$fontSize-fluid-18: fluid(14px, 18px);
+$fontSize-fluid-20: fluid(16px, 20px);
+
+
+// LINE HEIGHT
+$lineHeight-115: 1.15;
+$lineHeight-165: 1.65;
+
+
+// COLORS
+$color-gray-light: #F9F8F8;
+$color-gray-regular: #D4D4D4;
+$color-gray-dark: #c7c7c7;
+$color-gray-darkest: #525C60;
+
+$color-green-lightest: #EFF6F1;
+$color-green-lighter: #deede2;
+$color-green-light: #cee3d4;
+$color-green-regular: #7EB693;
+$color-green-dark: #5ca377;
+$color-green-darker: #53936b;
+
+$color-main-regular: #274C5B;
+$color-main-dark: #1f3c47;
+$color-main-darker: #172d35;
+
+$color-yellow-regular: #EFD372;
+$color-yellow-dark: #edcd5a;
+$color-yellow-darker: #eac643;
+
+$color-white: #FFFFFF;
+$color-black: #000000;

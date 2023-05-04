@@ -1,0 +1,20 @@
+@import "../../assets/styles/base/variables.scss";
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: fluid(5px, 10px);
+
+  text-decoration: none;
+}
+
+.logo__img {
+  inline-size: fluid(20px, 37px); /* 37px */
+  aspect-ratio: 37 / 54; /* 54px */
+}
+
+.logo__text {
+  font-size: fluid(25px, 38px); /* 38px */
+  font-weight: 700;
+  color: $color-main-regular;
+}

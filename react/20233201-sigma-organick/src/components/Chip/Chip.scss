@@ -1,0 +1,12 @@
+@import "../../assets/styles/base/_variables.scss";
+
+.chip {
+  display: inline-block;
+  padding: 5px 10px;
+  
+  font-size: $fontSize-fluid-15;
+  color: $color-white;
+  
+  background-color: $color-main-regular;
+  border-radius: 8px;
+}

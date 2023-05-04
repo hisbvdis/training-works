@@ -1,0 +1,19 @@
+@import "../../assets/styles/base/_variables.scss";
+
+.price {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.price__current {
+  font-weight: 700;
+  color: $color-main-regular;
+}
+
+.price__old {
+  font-size: 0.8em;
+  font-weight: 600;
+  color: #B8B8B8;
+  text-decoration: line-through;
+}

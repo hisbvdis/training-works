@@ -1,0 +1,13 @@
+.rating {
+  display: flex;
+  gap: 3px;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.rating__star {
+  inline-size: 20px;
+  block-size: 19px;
+}

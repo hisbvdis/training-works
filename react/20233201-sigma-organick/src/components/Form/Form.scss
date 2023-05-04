@@ -1,0 +1,28 @@
+@import "../../assets/styles/base/_variables.scss";
+@import "../../assets/styles/utilities/_fluid.scss";
+
+$gap: fluid(20px, 40px);
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: $gap;
+}
+
+.form__field {
+  flex: 1 0 300px;
+}
+
+.form__footer {
+  flex-basis: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+@media (min-width: $md) {
+  .form__field {
+    flex: 1 1 calc((100% - $gap) / 3);
+  }
+}

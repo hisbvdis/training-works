@@ -1,0 +1,39 @@
+@import "../../assets/styles/base/_variables.scss";
+
+.heading {
+  display: block;
+  margin-block: 0;
+  
+  font-family: $fontFamily-roboto;
+  font-weight: 900;
+  line-height: $lineHeight-115;
+  color: $color-main-regular;
+}
+
+.heading--1 {
+  font-size: fluid(35px, 70px); /* 70px */
+}
+
+.heading--2 {
+  font-size: fluid(25px, 50px); /* 50px */
+}
+
+.heading--3 {
+  font-size: fluid(20px, 40px); /* 40px */
+}
+
+.heading--4 {
+  font-size: fluid(18px, 35px); /* 35px */
+}
+
+.heading--5 {
+  font-size: fluid(18px, 30px); /* 30px */
+}
+
+.heading--6 {
+  font-size: fluid(18px, 25px); /* 25px */
+}
+
+.heading--white {
+  color: $color-white;
+}

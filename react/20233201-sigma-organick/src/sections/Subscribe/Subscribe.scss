@@ -1,0 +1,55 @@
+@import "../../assets/styles/base/_variables.scss";
+@import "../../assets/styles/utilities/_fluid.scss";
+
+.subscribe__container {
+  padding-block-start: 50px;
+}
+
+.subscribe__inner {
+  display: flex;
+  flex-direction: column;
+  row-gap: fluid(25px, 50px);
+  padding: fluid(30px, 100px) fluid(20px, 70px); /* 100px 70px */
+  
+  background: url("./assets/subscribe-bg.webp") center / cover no-repeat;
+  border-radius: 30px;
+}
+
+.subscribe__heading {
+  max-inline-size: 15ch;
+}
+
+.subscribe__form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px 10px;
+}
+
+.subscribe__field {
+  max-inline-size: 350px;
+}
+
+
+@media (min-width: $sm) {
+  .subscribe__form {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+@media (min-width: $lg) {
+  .subscribe__inner {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .subscribe__form {
+    flex: 1 1 580px;
+    justify-content: flex-end;
+  }
+  
+  .subscribe__field {
+    flex: 1 1 350px;
+  }
+}

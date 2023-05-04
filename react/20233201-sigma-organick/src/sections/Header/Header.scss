@@ -1,0 +1,74 @@
+@import "../../assets/styles/base/_variables.scss";
+
+.header__container {
+  position: relative;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding-block: fluid(10px, 70px, $md);
+}
+
+.header__container > * {
+  flex-shrink: 0;
+}
+
+.header__nav {
+  position: absolute;
+  inset-block-start: 100%;
+  inset-inline-start: 0;
+
+  display: none;
+  inline-size: 100%;
+
+  background-color: $color-white;
+}
+
+.root--navOpened .header__nav {
+  display: block;
+}
+
+.header__actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 5px;
+}
+
+
+@media (min-width: $md) {
+  .header__container {
+    gap: 20px;
+  }
+  
+  .header__navBtn {
+    display: none;
+  }
+  
+  .header__nav {
+    position: static;
+    
+    display: flex;
+    inline-size: auto;
+  }
+}
+
+
+@media (min-width: $lg) {
+  .header__logo {
+    margin-inline-end: fluid(0px, 150px, $lg);
+  }
+}
+
+
+@media (min-width: $xl) {
+  .header__search {
+    flex: 1 1 0;
+    max-inline-size: 370px;
+  }
+
+  .header__actions {
+    flex: 1 1 0;
+  }
+}

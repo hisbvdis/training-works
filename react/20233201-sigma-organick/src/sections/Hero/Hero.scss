@@ -1,0 +1,8 @@
+@import "../../assets/styles/base/_variables.scss";
+@import "../../assets/styles/utilities/_fluid.scss";
+
+.hero {
+  background:
+  url("./hero-bg-decor.svg") center / cover no-repeat,
+  url("./hero-bg-img.webp") center / cover no-repeat,
+}

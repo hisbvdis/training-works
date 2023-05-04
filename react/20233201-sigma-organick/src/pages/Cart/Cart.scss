@@ -1,0 +1,21 @@
+@import "../../assets/styles/base/_variables.scss";
+@import "../../assets/styles/utilities/_fluid.scss";
+
+.cart__banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-block: fluid(90px, 180px);
+  
+  background:
+  url("./assets/cart-banner-decor.svg") center / cover no-repeat,
+  url("./assets/cart-banner-image.webp") center / cover no-repeat,
+}
+
+.cart__content {
+  background-color: #FEF2DD;
+}
+
+.cart__placeholder {
+  text-align: center;
+}
