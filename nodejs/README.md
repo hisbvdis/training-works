@@ -1,6 +1,6 @@
 # Training works — Node.js
 
-| Project name                       | Description                                      | Source folder
-| ---------------------------------- | ------------------------------------------------ | -----------------------------------------------
-| 20220913-transitland-fs.http.fetch | Getting data from Transit.land (HTTP, FS)        | [Source folder](./20220913-transitland-fs.http.fetch)
-| 20230410-netology-course-nodejs    | Tasks from course "Netology — Node.js developer" | [Source folder](./20230410-netology-course-nodejs)
+| Project name          | Description                  | Folder
+| --------------------- | ---------------------------- | --------------------------------
+| 20220913-transitland  | TransitLand API (Fetch, FS)  | [Folder](./20220913-transitland)
+| 20230410-netology     | Netology course tasks        | [Folder](./20230410-netology)
