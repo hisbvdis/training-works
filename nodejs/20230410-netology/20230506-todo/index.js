@@ -57,7 +57,7 @@ app.get("/api/todos/", (req, res) => {
 
 
 // GET TODO
-app.get("/api/todo/:id", (req, res) => {
+app.get("/api/todos/:id", (req, res) => {
   const id = Number(req.params.id);
   const todo = todoList.find((todo) => todo.id === id);
 
@@ -71,7 +71,7 @@ app.get("/api/todo/:id", (req, res) => {
 
 
 // ADD TODO
-app.post("/api/todo/", (req, res) => {
+app.post("/api/todos/", (req, res) => {
   const { title } = req.body;
   const newTodo = new Todo(title);
   todoList.push(newTodo);
@@ -82,7 +82,7 @@ app.post("/api/todo/", (req, res) => {
 
 
 // EDIT TODO
-app.put("/api/todo/:id", (req, res) => {
+app.put("/api/todos/:id", (req, res) => {
   const id = Number(req.params.id);
   const todo = todoList.find((todo) => todo.id === id);
 
@@ -100,7 +100,7 @@ app.put("/api/todo/:id", (req, res) => {
 
 
 // DELETE TODO
-app.delete("/api/todo/:id", (req, res) => {
+app.delete("/api/todos/:id", (req, res) => {
   const id = Number(req.params.id);
   const todo = todoList.find((todo) => todo.id === id);
   if (todo !== undefined) {
