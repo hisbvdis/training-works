@@ -8,17 +8,17 @@ import bodyParser from "body-parser";
 /* ======================================================================= */
 /* 0. DATABASE */
 /* ======================================================================= */
-let todoList = [
-  {id: 0, title: "Buy MacBook", status: false},
-  {id: 1, title: "Go to recruiting center", status: false},
-  {id: 2, title: "By milk", status: false},
+let userList = [
+  {id: 0, name: "Vasya"},
+  {id: 1, name: "Petya"},
+  {id: 2, name: "Tolya"},
 ]
 
-class Todo {
-  constructor(title="") {
-    this.id = (todoList.reduce((max, {id}) => id > max ? id : max, 0) + 1) || 0;
-    this.title = title;
-    this.status = false;
+class User {
+  constructor(name, age) {
+    this.id = userList.at(-1).id + 1 || 0;
+    this.name = name;
+    this.age = age;
   }
 }
 
@@ -50,64 +50,71 @@ app.listen(PORT, () => {
 /* ======================================================================= */
 /* 2. ROUTING */
 /* ======================================================================= */
-// GET ALL TODOS
-app.get("/api/todos/", (req, res) => {
-  res.json(todoList);
+// LOGIN
+app.post("/api/user/login", (req, res) => {
+  res.status(201);
+  res.json({ id: 1, mail: "test@mail.ru" });
 })
 
 
-// GET TODO
-app.get("/api/todos/:id", (req, res) => {
-  const id = Number(req.params.id);
-  const todo = todoList.find((todo) => todo.id === id);
+// GET ALL USERS
+app.get("/api/users/", (req, res) => {
+  res.json(userList);
+})
 
-  if (todo !== undefined) {
-    res.json(todo);
+
+// GET USER
+app.get("/api/users/:id", (req, res) => {
+  const id = Number(req.params.id);
+  const user = userList.find((user) => user.id === id);
+
+  if (user !== undefined) {
+    res.json(user);
   } else {
     res.status(404);
-    res.json("Todo not found");
+    res.json("User not found");
   }
 })
 
 
-// ADD TODO
-app.post("/api/todos/", (req, res) => {
-  const { title } = req.body;
-  const newTodo = new Todo(title);
-  todoList.push(newTodo);
+// ADD USER
+app.post("/api/users/", (req, res) => {
+  const { name } = req.body;
+  const newUser = new User(name);
+  userList.push(newUser);
   
   res.status(201);
-  res.json(newTodo);
+  res.json(newUser);
 })
 
 
-// EDIT TODO
-app.put("/api/todos/:id", (req, res) => {
+// EDIT USER
+app.put("/api/users/:id", (req, res) => {
   const id = Number(req.params.id);
-  const todo = todoList.find((todo) => todo.id === id);
+  const user = userList.find((user) => user.id === id);
 
-  if (todo !== undefined) {
-    const title = req.body.title || todo.title;
-    const status = Boolean(req.body.status) || todo.status;
-    const newTodo = { ...todo, title, status };
-    todoList = todoList.map((todo) => (todo.id === id ? newTodo : todo));
-    res.json(newTodo);
+  if (user !== undefined) {
+    const name = req.body.name || user.name;
+    const newUser = { ...user, name };
+    userList = userList.map((user) => (user.id === id ? newUser : user));
+    res.json(newUser);
   } else {
     res.status(404);
-    res.json("Todo not found");
+    res.json("User not found");
   }
 })
 
 
-// DELETE TODO
-app.delete("/api/todos/:id", (req, res) => {
+// DELETE USER
+app.delete("/api/users/:id", (req, res) => {
   const id = Number(req.params.id);
-  const todo = todoList.find((todo) => todo.id === id);
-  if (todo !== undefined) {
-    todoList.splice(id, 1);
-    res.json(true);
+  const user = userList.find((user) => user.id === id);
+
+  if (user !== undefined) {
+    userList.splice(id, 1);
+    res.send("OK");
   } else {
     res.status(404);
-    res.json("Todo not found");
+    res.json("User not found");
   }
 })
