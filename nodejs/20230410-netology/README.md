@@ -1,11 +1,12 @@
 # Netology course tasks
 
-| Project name          | Description          | Folder
-| --------------------- | -------------------- | ---------------------------
-| 20230412-getDate      | Process.argv         | [Folder](./20230412-getDate)
-| 20230412-guessNumber  | Readline             | [Folder](./20230412-guessNumber)
-| 20230415-headsTails   | Readline, HTTP       | [Folder](./20230415-headsTails)
-| 20230417-routing      | HTTP                 | [Folder](./20230417-routing)
-| 20230419-weather      | Readline, HTTP       | [Folder](./20230419-weather)
-| 20230506-users        | Express Rest API     | [Folder](./20230506-users)
-| 20230507-logger       | Middleware (use), FS | [Folder](./20230507-logger)
+| Project name                   | Description           | Folder
+| ------------------------------ | --------------------- | ------------------------------------------
+| 20230412-getDate-argv          | Process.argv          | [Folder](./20230412-getDate-argv)
+| 20230412-guessNumber-readline  | Readline              | [Folder](./20230412-guessNumber-readline)
+| 20230415-headsTails-readline   | Readline, HTTP        | [Folder](./20230415-headsTails-readline)
+| 20230417-routing-http          | HTTP                  | [Folder](./20230417-routing-http)
+| 20230419-weather-http          | Readline, HTTP        | [Folder](./20230419-weather-http)
+| 20230506-users-express         | Express Rest API      | [Folder](./20230506-users-express)
+| 20230507-logger-middleware     | Middleware (use), FS  | [Folder](./20230507-logger-middleware)
+| 20230508-multer                | Multer middleware     | [Folder](./20230508-multer)
