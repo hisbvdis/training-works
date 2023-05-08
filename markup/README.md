@@ -1,8 +1,7 @@
 # Training works — Markup
 
 | Project ame                         | Adaptive | Source                                              | Demo
-| ----------------------------------- | -------- | --------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
-| Components learning                 |          | [Repository](https://github.com/hisbvdis/components)|
+| ----------------------------------- | -------- | --------------------------------------------------- | -----------------------------------------------------------------------------------------------------
 | 20190708-freebiesgallery-email-NA   | —        | [Source](./20190708-freebiesgallery-email-NA/)      | [Demo](https://hisbvdis.github.io/training-works/markup/20190708-freebiesgallery-email-NA/index.html)
 | 20190715-grift                      | ✓        | [Source](./20190715-grift/)                         | [Demo](https://hisbvdis.github.io/training-works/markup/20190715-grift/index.html)
 | 20190720-glo-repair                 | ✓        | [Source](./20190720-glo-repair/)                    | [Demo](https://hisbvdis.github.io/training-works/markup/20190720-glo-repair/index.html)
@@ -26,3 +25,5 @@
 | 20230105-sigma-alivio               | ✓        | [Source](./20230105-sigma-alivio/)                  | [Demo](https://hisbvdis.github.io/training-works/markup/20230105-sigma-alivio/index.html)
 | 20230120-sigma-jadoo                | ✓        | [Source](./20230120-sigma-jadoo/)                   | [Demo](https://hisbvdis.github.io/training-works/markup/20230120-sigma-jadoo/build/index.html)
 | 20230324-sigma-decbase              | ✓        | [Source](./20230324-sigma-decbase/)                 | [Demo](https://hisbvdis.github.io/training-works/markup/20230324-sigma-decbase/build/index.html)
+
+Components learning — [Repository](https://github.com/hisbvdis/components)
