@@ -17,7 +17,6 @@ import loginRouter from "./routes/login.js";
 // 1.4. Other
 import path from "node:path";
 import { fileURLToPath } from 'url';
-import ejs from "ejs";
 
 
 
@@ -38,6 +37,7 @@ app.set('view engine', 'ejs');
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`Server is on http://localhost:${PORT}/`));
+
 
 
 // ===========================================================================

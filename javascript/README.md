@@ -10,4 +10,4 @@
 | 20221101-yandex-cup-2022    | Задачи "Yandex Cup"                        | [Folder](./20221101-yandex-cup-2022)
 
 
-JS topics learning — [Repository](https://github.com/hisbvdis/js)
+JS topics learning — [Repository](https://github.com/hisbvdis/javascript)
