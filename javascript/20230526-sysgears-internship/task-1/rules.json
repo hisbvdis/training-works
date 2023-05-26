@@ -1,0 +1,9 @@
+[
+  { "unit": "mm", "mmScale": 1 },
+  { "unit": "m",  "mmScale": 1000 },
+  { "unit": "cm", "mmScale": 10 },
+  { "unit": "in", "mmScale": 25.4 },
+  { "unit": "ft", "mmScale": 304.8 },
+  { "unit": "yd", "mmScale": 914.4 },
+  { "unit": "km", "mmScale": 1000000 }
+]

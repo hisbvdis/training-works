@@ -1,0 +1,59 @@
+{
+  "type": "request",
+  "question": "What is your marital status?",
+  "responses": [
+    {
+      "answer": "Single",
+      "next": {
+        "type": "request",
+        "question": "Are you planning on getting married next year?",
+        "responses": [
+          { 
+            "type": "response",
+            "answer": "Yes",
+            "next": null
+          },
+          {
+            "type": "response",
+            "answer": "No",
+            "next": null
+          }
+        ]
+      }
+    },
+    {
+      "answer": "Married",
+      "next": {
+        "type": "request",
+        "question": "How long have you been married?",
+        "responses": [
+          { 
+            "type": "response",
+            "answer": "Less than a year",
+            "next": null
+          },
+          {
+            "type": "response",
+            "answer": "More than a year",
+            "next": {
+              "type": "request",
+              "question": "Have you celebrated your one year anniversary?",
+              "responses": [
+                { 
+                  "type": "response",
+                  "answer": "Yes",
+                  "next": null
+                },
+                {
+                  "type": "response",
+                  "answer": "No",
+                  "next": null
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
