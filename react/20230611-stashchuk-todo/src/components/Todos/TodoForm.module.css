@@ -1,0 +1,23 @@
+.todoForm {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.todoForm input {
+  padding: 15px;
+  
+  font-size: 1.3em;
+
+  border: none;
+  border-radius: 5px;
+}
+
+.todoForm button {
+  
+}
+
+.todoForm button:hover {
+  background-color: rgb(240, 240, 155);
+}
