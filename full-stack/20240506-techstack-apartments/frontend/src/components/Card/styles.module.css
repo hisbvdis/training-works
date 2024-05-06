@@ -1,0 +1,10 @@
+.card {
+  padding: 20px;
+
+  background-color: #fff;
+  border: 1px solid #dee0e4;
+}
+
+.card + .card {
+  margin-block-start: 20px;
+}

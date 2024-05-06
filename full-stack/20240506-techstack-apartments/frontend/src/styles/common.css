@@ -1,0 +1,17 @@
+.createForm {
+  display: grid;
+  grid-template-columns: 10fr 2fr 2fr 4fr 4fr;
+  align-items: end;
+  gap: 20px;
+}
+
+.section {
+  margin-block-start: 50px;
+}
+
+.section__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-block-end: 15px;
+}

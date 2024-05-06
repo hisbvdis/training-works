@@ -1,0 +1,14 @@
+.rent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rent__infoDivider {
+  margin-inline: 10px;
+}
+
+.rent__buttons {
+  display: flex;
+  gap: 20px;
+}
