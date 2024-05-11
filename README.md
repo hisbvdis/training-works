@@ -2,8 +2,8 @@
 
 | Type             | Link                        |
 |------------------|-----------------------------|
-| Markup           | [Folder](./markup)          |
-| JavaScript       | [Folder](./javascript/)     |
+| Full-Stack       | [Folder](./full-stack/)     |
 | React            | [Folder](./react/)          |
 | Node.js          | [Folder](./nodejs/)         |
-| Full-Stack       | [Folder](./full-stack/)     |
+| JavaScript       | [Folder](./javascript/)     |
+| Markup           | [Folder](./markup)          |
